@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Campo de Texto </title>
+</head>
+<body>
+
+    <header>
+        <h1> Curso de HTML </h1>
+    </header>
+
+    <section style="display: flex; justify-content: center;
+    padding: 5%; border: 1px solid black; margin: 10px; font-size: 2rem;">
+
+        <form method="post" action="recebe.php">
+            Nome: <input type="text" name="nome" placeholder="Digite seu nome"> <br>
+            Email: <input type="text" name="Email" placeholder="Digite seu email"> <br>
+            CPF: <input type="text" name="cpf" maxlength="14" pattern="000.000.000-00"> <br>
+            SENHA: <input type="password" name="senha"> <br>
+            Comentários: <textarea name="comentarios"></textarea>
+        </form>
+
+    </section>
+    
+</body>
+</html>

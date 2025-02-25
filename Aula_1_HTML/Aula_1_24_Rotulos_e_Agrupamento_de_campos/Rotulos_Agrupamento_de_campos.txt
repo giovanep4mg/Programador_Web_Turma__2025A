@@ -1,0 +1,54 @@
+###  Rótulos e Agrupamento de campos
+
+* Os rótulos ajudam a gente definir o que o programador está esperando do usuário para ser preenchido no formulário.
+
+* Um exemplo muito utilizado dos rótulos é com os campos do tipo radio que são essas bolinhas aonde a gente vai preencher uma opção ou outra. 
+
+* Nesse nosso exemplo a gente tem um formulário onde a pessoa vai definir se ela é do sexo masculino ou feminino.
+
+Exemplo:
+
+        <form action="post">
+
+            <label for="homem"> Homem </label>
+            <input type="radio" name="sexo" id="homem" value="homem"> <br>
+
+            <label for="mulher"> Mulher </label>
+            <input type="radio" name="sexo" id="mulher" value="mulher"> <br>
+            
+        </form>
+
+** Podemos criar um formulário que ajude o usuário a ver como deve ser preenchido:
+-> Vai mostra ao usuário como deve ser escrito o campo de textarea.
+
+        <form action="post">
+
+            <label for="endereco"> Endereço: </label>
+
+            <textarea name="endereco" id="endereco">
+                Passa-Quatro, Minas Gerais
+                Rua Passa-Quatro,Passa-Quatro
+            </textarea>
+
+        </form>
+
+##  fieldset :
+
+* Vai delimitar o conjunto de campos que pertencem a um domínio comum ou seja que possuem o mesmo tipo, a mesma categoria e isso facilita bastante o preenchimento do formulário porque a gente segmenta o formulário em várias partes.
+
+** Cria uma borda para delimitar os espaço que será usado.
+
+Exemplo:
+
+        <form action="post">
+
+            <fieldset>
+                <legend> Dados Pessoais: </legend>
+                Nome: <input type="text" name="nome"> <br>
+                Email: <input type="email" name="email"> <br>
+                Nascimento: <input type="text"> <br>
+            </fieldset>
+
+        </form>
+
+

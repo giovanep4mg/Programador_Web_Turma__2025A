@@ -1,0 +1,62 @@
+##     Formatação de elementos
+
+## Div
+* div que é uma tag do HTML que ela simplesmente delimita uma área do site onde a gente vai alocar uma determinada.
+
+Exemplo de como é no HTML:
+
+    <div class="quadro1">
+        Quadro 1
+    </div>
+    <div class="quadro2">
+        Quadro 2
+    </div>
+    <div class="quadro3">
+        quadro 3
+    </div>
+
+* Agora vamos adicionar os estilos no arquivo CSS:
+
+
+        /* Configuração geral de todas as Divs */ 
+        div{
+            border-style: solid;
+            border-width: 2px;
+            position: absolute;
+        }
+
+        /* Configuração da Div selecionada pela sua classe */
+        .quadro1{
+            top: 0;
+            width: 202px;      
+            height: 100px;
+            background-color: yellow;
+        }
+
+        /* Configuração da Div selecionada pela sua classe */
+        .quadro2{
+            top: 102px;
+            width:100px;                  
+            height: 100px;
+            color: red;
+        }
+
+        /* Configuração da Div selecionada pela sua classe */
+        .quadro3{
+            top: 102px;
+            left: 110px;
+            width:100px;                                                                                      height: 100px;
+            border-style: dotted;
+        }
+
+** Para saber mais sobre as Divs acesse esse site:
+https://www.w3schools.com/css/css_boxmodel.asp
+
+** Alinhamento da Div:
+http://learnlayout.com/inline-block.html 
+
+** Posicionamento da Divs:
+ http://www.w3schools.com/css/css_positioning.asp
+
+** Templates prontos, para te ajudar a ter idéias de como fazer :
+https://templated.co/

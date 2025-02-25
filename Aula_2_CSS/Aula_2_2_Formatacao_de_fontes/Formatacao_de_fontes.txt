@@ -1,0 +1,64 @@
+## Formatação de fontes
+
+* As fontes sofreram uma grande mudança nesses últimos anos e também uma grande importância dentro do desenvolvimento de páginas web. 
+
+* É preciso colocar a formatação das fontes dentro do CSS.
+
+###  Unidades de tamanho do CSS
+* Relativo: ( vai se adequar ao tamanho do navegador)
+-->> %
+-->> em
+-->> ex 
+-->> px
+
+Absoluto: ( não vai mudar, valores são fixos, não importa o navegador )
+-->> in 
+-->> cm 
+-->> mm 
+-->> pt 
+-->> pc 
+
+* A escolha da unidade que será usada é escolha do programador.
+
+## Decoração do Texto ( text-decoration )
+* Usamos para criar algumas decorações no texto.
+* Exemplo do código no CSS:
+
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            letter-spacing: 0.5em;
+            text-align: justify;
+        }
+
+        .inferior{
+            text-decoration: underline;
+        }
+
+        .superior{
+            text-decoration: overline;
+        }
+
+        .centro{
+            text-decoration: line-through;
+        }
+
+        .pisca{
+            text-decoration: blink;
+        }
+
+
+## Recuo de Parágrafo ( text-indent )
+* Cria um espaço entre o inicio do parágrafo.
+
+* Use fontes mais normais, que não use muito desenho, para página web, ficam cansativas.
+
+## Texto com sombras ( text-shadow )
+
+## Texto sempre inicia comletras Maiúsculas  ( text-transform: capitalize; )
+
+
+
+
+
+

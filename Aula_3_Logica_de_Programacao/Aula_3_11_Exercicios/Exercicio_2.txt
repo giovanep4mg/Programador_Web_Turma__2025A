@@ -1,0 +1,32 @@
+##   Exercício 2: Média ponderada
+
+ Imagine que seu professor deu 2 provas e 1 trabalho durante o semestre letivo. 
+ A primeira prova teve peso 2. A segunda prova teve peso 3. E o trabalho teve peso 4. 
+  
+ Agora que você é um programador, você deseja criar um programa que calcule a sua média nesse semestre. 
+ Como seria este programa no Portugol Studio?
+
+    programa {
+        funcao inicio() {
+
+            // variáveis
+            real nota1, nota2, trabalho
+
+            // Pede ao usuário para  inserir os valores das notas das provas e do trabalho
+            escreva("Digite o valor da nota, da prova 1:")
+            leia(nota1)
+            escreva("Digite o valor da nota, da prova 2:")
+            leia(nota2)
+            escreva("Digite o valor da nota, do trabalho:")
+            leia(trabalho)
+
+
+            // calcular a média das notas, multiplica pelo valor que ela vale
+            real media = (nota1 * 2 + nota2 * 3 + trabalho * 4 ) / (2+3+4)
+
+            //Exibi o resultado da média
+            escreva("O resultado da sua média é: ",media)
+
+            
+        }
+    }

@@ -1,0 +1,27 @@
+##   3.14 Introdução sobre Operadores Relacionais
+
+* Os operadores relacionais são aqueles que permitem a comparação entre dois valores a fim de saber se esta comparação é verdadeira ou falta. 
+* Conheça alguns operadores:
+
+    > maior
+
+    < menor
+
+    >= maior ou igual
+
+    <= menor ou igual
+
+* Como a gente usa o sinal de igual para fazer uma atribuição na programação em Portugol quando eu for comparar valores, eu utilizo dois iguais (==).
+
+* Nós vamos aprender quais são os três operadores: "e", "ou" e "não".
+
+
+###   3.18 Conceitos Básicos de Desvio Condicional
+
+O desvio condicional é o nome dado ao nosso famoso "Se". 
+
+Na programação, ele significa que "Se" uma condição for válida, iremos executar um conjunto de comandos que virão na sequência. 
+
+Portanto, ele é muito útil para as situações onde alguns comandos devem ser executados apenas se uma condição for verdadeira.
+
+Então, pra isso, nós vamos conhecer hoje três novos comandos, que é o "se", o "se não" e o "se não se".

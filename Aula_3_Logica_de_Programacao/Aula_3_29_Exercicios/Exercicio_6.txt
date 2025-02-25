@@ -1,0 +1,35 @@
+##   Exercício 6: Diagonal Principal
+
+* Faça um algoritmo que leia uma matriz 4x4 
+* e imprima na tela a soma dos elementos abaixo da diagonal principal da matriz.
+
+    programa {
+        funcao inicio() {
+            
+            // cria uma matriz com 4 linhas e 4 colunas
+            inteiro matriz [4][4], soma = 0
+
+            // Laço de repetição, sobre as linhas e as colunas da matriz
+            para(inteiro i = 0; i < 4; i++){
+            para(inteiro y = 0; y < 4; y++){
+
+                // Pede ao usuário para inserir os valores, mostrando a posição da linha e coluna
+                escreva("Informe o número na posição:[", i + 1,"][", y + 1,"]")
+
+                // salva na matriz os valores adicionados
+                leia(matriz[i][y])
+
+            }
+            }
+            // Laço de repetição, para somar os números
+            para( inteiro pos = 0; pos < 4; pos++){
+
+            // Salva a soma dos números das posições 
+            soma = soma + matriz[pos][pos]
+
+            }
+            // exibi o resultado das somas
+            escreva("A soma é: ",soma)
+            
+        }
+    }

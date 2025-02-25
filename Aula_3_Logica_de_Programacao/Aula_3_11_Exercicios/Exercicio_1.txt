@@ -1,0 +1,46 @@
+#  Exercício 1: Idade daqui 5 anos
+
+* Utilizando o Portugol Studio, escreva um programa:
+1 - que leia o nome de uma pessoa, sua idade e,
+2 - escreva o nome da pessoa e a idade que ela terá daqui 5 anos.
+
+programa {
+
+    funcao inicio() {
+    
+        /**
+        * Utilizando o Portugol Studio, escreva um programa que leia o nome de uma pessoa, sua idade e escreva o nome da pessoa e a idade que ela terá daqui 5 anos.
+        */
+
+        //variáveis
+        cadeia nome
+        inteiro idade, anos
+
+        // Pedir o nome do usuário 
+        escreva("Digite seu nome:")
+        leia(nome)
+
+        // Pedir a idade do usuário 
+        escreva("Digite sua idade:")
+        leia(idade)
+
+        // Idade que ele terá daqui a 5 anos
+        anos = idade + 5
+
+        escreva("\n Seu nome é: ",nome)
+        escreva("\n Sua idade é: ",idade)
+        escreva("\n Daqui a 5 anos você terá: ",anos)
+
+    }
+}
+
+
+Exemplo de como seria o resultado:
+
+Digite seu nome:nego
+Digite sua idade:20
+
+ Seu nome é: nego
+ Sua idade é: 20
+ Daqui a 5 anos você terá: 25
+Programa finalizado. Tempo de execução: 5526 milissegundos

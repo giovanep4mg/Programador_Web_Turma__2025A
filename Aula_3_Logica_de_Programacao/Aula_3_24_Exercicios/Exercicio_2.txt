@@ -1,0 +1,50 @@
+##   Exercício 2: 10 a 1 ordem decrescente
+
+* Escreva um algoritmo para imprimir os números de 1 (inclusive) a 10 (inclusive) em ordem decrescente. 
+
+## Usando o " para ":
+
+    programa {
+        funcao inicio() {
+
+            para(inteiro valor = 10;valor > 0; valor--){
+
+                escreva(valor,"\n")
+
+            }
+        }
+    }
+
+## Usando o " enquanto ":
+
+    programa {
+        funcao inicio() {
+
+            inteiro valor = 10
+
+            enquanto( valor > 0 ){
+
+                escreva("\n" ,valor)
+                valor-- // valor = valor - 1
+            }     
+        }
+    }
+
+## Usando o " faça " e o " enquanto ":
+
+    programa {
+        funcao inicio() {
+
+            // Inicia a variável com o valor de 10
+            inteiro valor = 10
+
+            faca{
+
+                escreva("\n", valor)
+
+                valor = valor - 1
+
+            } enquanto( valor > 0)
+        
+        }
+    }

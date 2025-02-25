@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exercício - 5 - Game </title>
+</head>
+<body>
+    <style>
+        form{
+            padding: 2%;
+        }
+        section{
+            border: 1px solid black;
+            padding: 1%;
+        }
+    </style>
+
+    <section>
+
+        <h2>Como eu fiz: </h2>
+
+        <form method="post" action="seila">
+
+            Nome: <input type="text" name="nome" value="digite seu nome"> <br>
+            Lançamento: <input type="date"> <br>
+            Plataforma: <select name="plataforma" id="plataforma">
+                <option value="PS3">PS3 </option> <br>
+                <option value="PS4"> PS4 </option> <br>
+                <option value="XBOX">XBOX</option> <br>
+            </select>
+            <br>    
+            <button type="submit"> Enviar </button>
+            
+        </form>
+    </section>
+
+    <section>
+
+        <h2>Como deveria ser feito: </h2>
+
+        <form method="post" action="seila">
+
+            <label for="nome"> Nome: </label> 
+            <input type="text" name="nome" id="nome"> <br>
+
+            <label for="lancamento"> Lançamento: </label> 
+            <input type="date" name="lancamento" id="lancamento"> <br>
+
+            <label for="plataforma"> Plataforma: </label> 
+            <select name="plataforma" id="plataforma">
+                <option value="PS3"> PS3 </option>
+                <option value="WII">WII</option>
+            </select>
+            <br>
+            <button type="submit"> Enviar </button>
+            
+        </form>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Outros Campos </title>
+</head>
+<body>
+    
+    <style>
+        .conteudo{
+            display: flex;
+            width: 90%;
+            border: 1px solid black;
+            justify-content: center;
+            padding: 3%;
+            font-size: 3rem;
+            flex-direction: column;
+        }
+
+        button{
+            text-align: center;
+            width: -webkit-fill-available;
+            font-size: 1.5rem;
+        }
+    </style>
+    
+    <section class="conteudo">
+
+
+        <form method="post" action="recebe.php" >
+           
+            <fieldset>
+                <p>
+                    Nesse tipo a informação é enviada pelo formulário, porém não vai ser exibida na tela, ela não vai ficar disponível para o usuário visualizar essa informação na tela do navegador.
+                </p>
+                <legend> Campo do tipo Oculto </legend>
+
+                    <input type="hidden" name="id" value="123">
+            
+            </fieldset>
+
+        </form>
+
+        <form method="post" action="recebe.php" >
+            
+            <fieldset>
+
+                <legend> Campo para enviar arquivos </legend>
+
+                    <enctype="multipart/form-data">
+                    <input type="file" name="arquivo">
+            
+            </fieldset>
+
+        </form>
+
+       
+
+      
+
+      
+
+
+    </section>
+
+</body>
+</html>

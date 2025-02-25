@@ -1,0 +1,36 @@
+##  Exercício 5: Números negativos
+
+*  Escreva um algoritmo que lê um vetor com seis posições e o escreve. 
+* Conte, a seguir, quantos valores do vetor são negativos e escreva esta informação.
+
+    programa {
+        funcao inicio() {
+
+            // Criando um vetor com 6 posições
+            real vetor[6] 
+
+            // Laço de repetiçao para pegar os números do usuário
+            para(inteiro pos = 0; pos < 6; pos++){
+
+                // Pede ao usuário para inserir os números e mostra a posição que será inserido
+                escreva("Informe o número da posição: ",( pos + 1 )," : ")
+                // salva no vetor na posição
+                leia(vetor[pos])
+
+            }
+            // Laço de repetição, para verificar quais são negativos ou não
+            para(inteiro pos = 0;pos < 6; pos++){
+
+                // Se o valor dentro do vetor,for menor que zero
+                se( vetor[pos] < 0 ){
+                    
+                    // Vai exibir os valores negativos, linha por linha
+                    escreva("O valor ", vetor[pos] ," é negativo! \n ")
+
+                }
+
+            }
+
+            
+        }
+    }

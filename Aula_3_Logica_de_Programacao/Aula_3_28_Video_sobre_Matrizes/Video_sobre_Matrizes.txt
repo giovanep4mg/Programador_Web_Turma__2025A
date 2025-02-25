@@ -1,0 +1,33 @@
+###  Vídeo sobre Matrizes
+
+* As matrizes são muito similares aos vetores, só que ela é bidimensional. 
+* Eu posso trabalhar com linhas e com colunas.
+
+##      // Criando uma matriz com o pais e sua capital
+        cadeia capitais [2] [2] = { {"BRA", "Brasilia"} , {"ARG","Buenos Ares"} }
+
+* Usamos dois " para " para selecionar o que tem dentro da matriz criada, 
+um "para" seleciona as linhas e o outro "para" seleciona as colunas.
+
+Exemplo:
+
+    programa {
+        funcao inicio() {
+
+            // Criando uma matriz com o pais e sua capital
+            cadeia capitais [2] [2] ={{"BRA", "Brasilia"},{"ARG","Buenos Ares"}}
+
+            // Percorre a linha
+            para(inteiro x = 0; x < 2; x++){
+
+                //Percorre a coluna
+                para(inteiro y = 0; y < 2; y++){
+
+                    // Vai exibir na tela as posições de 0 do x e do 0 do y, e assim por diante
+                    escreva(capitais[x][y], "\n")
+
+                }
+            }
+        
+        }
+    }

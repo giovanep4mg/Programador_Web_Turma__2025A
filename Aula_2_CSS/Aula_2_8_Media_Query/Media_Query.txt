@@ -1,0 +1,38 @@
+##   2.8 Media Query
+
+* O Media Query é uma propriedade do CSS que possibilita a personalização das páginas na internet.
+
+* é usado para deixar nossas páginas responsivas ou seja, compativél com outros tamanhos, como cel, tablete, etc...
+
+* Você pode mudar as posições das coisas na página, ou até remover algumas coisas quando a tela for menor.
+
+* No site pode ter tudo sobre, e no celular ou telas menores, ter as informações principais.
+
+* Como expecificar que vamos usar o Media Query:
+
+## Direto na tag do HTML, adiciona direto no link que usamos para adicionar o arquivo CSS:
+
+->>   <link rel="stylesheet" href="style.css" 
+             media="screen and (color)">  <<-->> Aqui diz só funcionará com tela a cor.
+
+
+-->> <link rel="stylesheet" href="style.css" 
+    media="screen and (max-whidth:480px)"> <<-->> Aqui a largura máxima será de 480px
+
+
+** Não existe um número fixo de tamano para usar nas telas, vai da sua escolha de como ficará.
+
+* Pode pegar a posição da tela, a resolução, para que fique certinho.
+
+## Como fica o uso do Media Query, dentro do arquivo CSS:
+
+        /* MAX - WIDTH */
+        @media screen and (max-width: 600px){
+            
+            .um{
+                background-color: #f9c;
+            }
+            span.lt_600{
+                display: inline-block;
+            }
+        }

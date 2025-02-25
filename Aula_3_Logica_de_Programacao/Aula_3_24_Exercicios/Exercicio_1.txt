@@ -1,0 +1,53 @@
+##  Exercício 1: 1 a 10 crescente
+
+* Escreva um algoritmo para imprimir os números de 1 (inclusive) a 10 (inclusive) em ordem crescente. 
+
+## Usando o " para "
+    programa {
+        funcao inicio() {
+        
+            // Iniciamos a variável i valendo 1 e
+            // enquanto a variável for menor que 11, vai executar a ação,
+            // se o valor da variável aumentar seu valor para 12, o código é parado
+
+            para(inteiro i = 1;i < 11; i++){
+
+                escreva(i)
+
+            }
+        }
+    }
+
+## Usando o  " enquanto ":
+
+    programa {
+            funcao inicio() {
+
+                inteiro i = 1
+
+                enquanto( i <= 10 ){
+
+                    escreva("\n" ,i)
+                    i++
+                }     
+        }
+    }
+
+## Usando o " faça " e o " enquanto ", juntos:
+
+    programa {
+        funcao inicio() {
+
+            // Inicia a variável com o valor de 1
+            inteiro valor = 1
+
+            faca{
+
+                escreva("\n", valor)
+
+                valor = valor + 1
+
+            } enquanto( valor <= 10)
+        
+        }
+    }

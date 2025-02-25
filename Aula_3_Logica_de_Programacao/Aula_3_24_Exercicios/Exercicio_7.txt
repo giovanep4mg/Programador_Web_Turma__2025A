@@ -1,0 +1,47 @@
+##  Exercício 7: Menor e maior valor
+
+* Faça um programa que leia 100 números inteiros e no final, escreva o maior e o menor valor lido
+
+programa {
+    funcao inicio() {
+      // Faça um programa que leia 100 números inteiros e no final, escreva o maior e o menor valor lido
+
+      // variáveis do tipo inteiro
+      inteiro valor, maior, menor
+
+      // inicia as variável valendo 0
+      valor = 0
+
+        // Pede ao usuário para digitar um valor
+        escreva("Digite uma valor: ")
+        //salva o número digitado na variável "valor"
+        leia(valor)
+
+        // Pega o valor digitado pelo usuário e salva nessas variáveis
+        maior = valor
+        menor = valor              
+
+        // Inicia a contagem em 1, e se for menor ou igual a 100, aumenta mais 1 na var contagem
+        para(inteiro contagem = 1;contagem <= 100; contagem++){
+
+        // ler os valores da variável "valor"
+        leia(valor)
+
+        // se os valores da var "maior" for menor que os valores da var "valor"
+        se( maior < valor ){
+
+            // Pega o valor maior e salva na variável "maior"
+            maior = valor        
+
+        // se os valores da var "menor" forem menores que os valores da var "valor"
+        } se( menor > valor){
+
+            // Pega o menor valor e salva na var "menor"
+            menor = valor
+        }
+
+        }
+        // Exibi o maior e menor valor que foram digitados
+        escreva("\n O número maior é: ",maior, "\n O número de menor valor é: ",menor)
+    }
+}

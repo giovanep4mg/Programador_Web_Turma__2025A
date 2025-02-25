@@ -1,0 +1,24 @@
+##  Exercício 1: Maior que 10
+
+* Ler um valor e escrever a mensagem É MAIOR QUE 10! 
+se o valor lido for maior que 10, caso contrário escrever NÃO É MAIOR QUE 10! 
+
+    programa {
+        funcao inicio() {
+
+            // variáveis
+            inteiro numero
+
+            // Pede ao usuário para digitar um número
+            escreva("Digite um valor:")
+            leia(numero)
+
+            // Faz a comparação se é maior ou menor que 10
+            se(numero > 10){
+            escreva("É maior que 10.")
+            } senao {
+            escreva("É menor que 10.")
+            }
+        
+        }
+    }

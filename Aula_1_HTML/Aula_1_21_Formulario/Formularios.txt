@@ -1,0 +1,21 @@
+##  Formulários
+
+* Os formulários, no HTML:
+são ferramentas únicas que permitem a verdadeira interação entre o usuário e o sistema.
+
+* Há em vários site, campo de busca, login e senha, entre outras coisas.
+* Normalmente você adiciona algo que o site está pedindo ou você quer e retorna a resposta.
+
+*Então o formulário no HTML é descrito através da tag form onde a gente vai começar o form com essa tag e finalizar utilizando /form.
+
+*Então a gente vai ter que colocar todos os campos, botões, seletores, tudo dentro desse form.
+
+A tag form precisa de dois atributos para funcionar adequadamente:  ACTION e METHOD
+
+** o primeiro atributo é o Action que vai definir para onde que essas informações do formulário devem ser enviadas então se eu tiver um formulário de busca para onde eu devo enviar esse termo de busca que estou fazendo?
+
+**  o segundo parâmetro que a gente precisa informar que é o método: como que a gente vai enviar os dados desse formulário? Se a gente vai enviar pelo método post ou pelo método get. 
+
+Método get ->> é menos seguro para usar pois as informações ficam no navegador.
+
+Método post ->> é mais seguro, fica mais escondido, e envia diretamente para a página PHP.

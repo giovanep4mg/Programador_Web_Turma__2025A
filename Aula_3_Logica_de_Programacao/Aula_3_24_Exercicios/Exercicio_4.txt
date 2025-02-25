@@ -1,0 +1,84 @@
+##   Exercício 4: Soma 5 números
+
+* Escreva um algoritmo para ler 5 números inteiros e ao final da leitura escrever a soma total dos 5 números lidos. 
+
+## Usando o " para":
+
+    programa {
+        funcao inicio() {
+        
+            // variáveis do tipo inteiro
+            inteiro valor, soma
+
+            // inicia as variáveis valendo 0
+            valor = 0
+            soma = 0
+
+            // Inicia a contagem em 1, e se for menor ou igual a 5, aumenta mais 1 na var contagem
+            para(inteiro contagem = 1;contagem <= 5; contagem++){
+
+                // Pede ao usuário para digitar um número
+                escreva("Digite uma valor inteiro: ")
+                //salva o número digitado na variável "valor"
+                leia(valor)
+
+                // soma o valor da soma "0" mais o valor que foi digitado pelo usuário
+                soma = soma + valor  
+
+            }
+            // Exibi o resultado da soma dos valores adicionados
+            escreva("A soma é: ",soma)
+        }
+    }
+
+## Usando o " enquanto ":
+
+    programa {
+        funcao inicio() {
+
+            inteiro valor, contagem, soma
+
+            valor = 0
+            contagem = 1
+            soma = 0
+
+            enquanto( contagem <= 5 ){
+
+                escreva("Digite o valor: ")
+                leia(valor)
+
+                soma = soma + valor
+
+                contagem = contagem + 1
+            }  
+            
+            escreva("A soma é : ",soma)   
+        }
+    }
+
+## Usando o " faça " e o " enquanto ":
+
+    programa {
+        funcao inicio() {
+
+            inteiro valor, contagem, soma
+
+            valor = 0
+            soma = 0
+            contagem = 1
+            
+            faca{
+                escreva("Digite um valor inteiro: ")
+                leia(valor)
+
+                soma = soma + valor
+
+                contagem = contagem + 1
+
+
+            } enquanto( contagem <= 5)
+
+            escreva("A soma é: ",soma)
+        
+        }
+    }

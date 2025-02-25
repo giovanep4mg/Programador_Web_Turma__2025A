@@ -1,0 +1,22 @@
+##  Exercício 4: Positivo, Negativo ou Zero
+*  Ler um valor e escrever se é positivo, negativo ou zero.
+
+    programa {
+        funcao inicio() {
+
+                // Variáveis
+                inteiro valor
+
+                // Pede ao usuário para digitar um valor
+                escreva("Digite um valor:")
+                leia(valor)
+
+                //Verificação
+                se (valor > 0 ){
+                escreva("O valor digitado é positivo.")
+                } senao {
+                escreva("O valor digitado é negativo.")
+                }
+            
+        }
+    }

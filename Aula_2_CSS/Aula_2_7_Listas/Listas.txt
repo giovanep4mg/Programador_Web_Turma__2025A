@@ -1,0 +1,22 @@
+###   2.7 Listas
+
+* As listas servem para identificar informações em sequência, de forma mais organizada.
+
+* Podemos modificar as lista, adicionar imagens.
+
+* Criamos a lista usando a tag "ul", e nela adicionamos esse código no CSS:
+-->>>    list-style-image: *aqui seleciona carregar a imagem que deseja usar* ;
+
+*** Usei essa configuração no CSS, para adicionar imagem na lista, pois o navegador não aceita:
+
+        ul {
+        list-style: none; /* Remove os marcadores padrão */
+        }
+
+        ul li {
+        background-image: url('./imagens/pudding_1625084.png');
+        background-size: 20px 20px; /* Ajuste o tamanho da imagem */
+        background-repeat: no-repeat;
+        background-position: left center;
+        padding-left: 30px; /* Espaço para o ícone */
+        }

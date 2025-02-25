@@ -1,0 +1,42 @@
+##    Outros Campos
+
+* O input ainda tem algumas opções adicionais para colocação de campos no formulário.
+
+** campo do tipo culto:
+
+* Nesse tipo a informação é enviada pelo formulário, porém não vai ser exibida na tela, ela não vai ficar disponível para o usuário visualizar essa informação na tela do navegador.
+
+* A gente utiliza muito o tipo de campo oculto para passar números de identificação em formulários.
+
+Exemplo:
+
+    <form method="post" action="recebe.php" >
+            
+        <input type="hidden" name="id" value="123">
+    
+    </form>
+
+
+**  campo arquivo:
+
+* O campo arquivo permite que a gente envie, através de upload, um arquivo que está na máquina do usuário para dentro do servidor.
+
+* Esse enctype=”multipart/form-data” significa que a partir deste momento o formulário não vai estar enviando apenas informações pessoais, mas vai enviar também dados, vai enviar arquivos. 
+
+* Então toda vez que vocês quiserem criar um campo do tipo arquivo, obrigatoriamente eu tenho que modificar o meu formulário para que seja permitido o envio de arquivos e não apenas de texto.
+
+* Temos que usar o método "POST" para conseguiar enviar arquivos.
+
+Exemplo:
+
+    <form method="post" action="recebe.php" >
+            
+        <enctype="multipart/form-data">
+        <input type="file" name="arquivo">
+                    
+    </form>
+
+* Possui 2 parâmetros o tipo "file":
+--> accept
+--> alt
+

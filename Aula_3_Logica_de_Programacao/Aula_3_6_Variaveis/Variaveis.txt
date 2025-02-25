@@ -1,0 +1,35 @@
+##  3.6 Variáveis
+
+* as variáveis em um programa de computador servem para armazenar valores variados.
+
+* No curso está usando uma programa chamado Portugol, para as aulas de Lógica de programação.
+
+Para cada tipo de dados existe um tipo de variável, por exemplo:
+
+        -->> cadeia ==>> Para texto, nomes, palavras...( usar aspas duplas -->> "Pedro")
+        -->> inteiro ==>> Para números inteiros (1, 4, 45, 100232, ...)
+        -->> real ==>> Para números decimais (23.34, 23.10, 90,05,...)
+        -->> logico ==>> Para Verdadeiro ou Falso (true or false)
+
+
+* Exemplo criado no Portugol Web:
+
+    programa {
+        funcao inicio() {
+
+                // Tipos de variáveis
+                inteiro idade
+                real peso
+                cadeia nome
+                logico sabedenadar
+
+                // Variáveis com os valores adicionados
+                idade = 23
+                peso = 89.00
+                nome = "giovani"
+                sabedenadar = verdadeiro
+
+                // Para aparecer na tela com os valores das variáveis
+                escreva("Seu nome é:" ,nome, "\nSua idade é:" ,idade, "\nSeu peso é:",peso,"\nVocê sabe nadar:" ,sabedenadar)
+        }
+    }

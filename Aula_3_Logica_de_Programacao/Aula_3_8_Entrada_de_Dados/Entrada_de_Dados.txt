@@ -1,0 +1,22 @@
+###   3.8 Entrada de Dados
+
+programa {
+  funcao inicio() {
+
+    // Declarando as variáveis com seus tipos
+    cadeia nome
+    inteiro idade
+
+    // Pedindo ao usuário para inserir seus dados
+    escreva("Digite seu nome:")
+    //Salvando o valor digitado nessa variável "nome"
+    leia(nome)
+
+    // Pedindo ao usuário para inserir seus dados
+    escreva("Digite sua idade:")
+    //Salvando o valor digitado nessa variável "idade"
+    leia(idade)
+
+    escreva("Seu nome é:" ,nome, "\nSua idade é:" ,idade)
+  }
+}

@@ -1,0 +1,25 @@
+##  Exercício 2: Maior valor
+
+*  Ler dois valores (considere que não serão lidos valores iguais) e escrever o maior deles.
+
+    programa {
+        funcao inicio() {
+
+                // variáveis 
+                inteiro valor1, valor2
+
+                // Pedir ao usuário para digitar os valores
+                escreva("Digite o valor para o número 1:")
+                leia(valor1)
+                escreva("Digite o valor para o número 2:")
+                leia(valor2)
+
+                // Comparar qual deles é maior 
+                se (valor1 > valor2){
+                escreva("O número maior é o :" ,valor1)
+                } senao {
+                escreva("O número maior é o :" ,valor2)
+                }
+            
+        }
+    }

@@ -1,0 +1,46 @@
+## 3.23 Vídeo sobre Laços de Repetição
+
+* Os laços de repetição são estruturas de programação, similares aos desvios condicionais, que permitem que a gente construa e desenvolva programas mais complexos.
+
+* Ajuda a repetir certos códigos, fazer várias verificações:
+
+    programa {
+        funcao inicio() {
+        
+            para(inteiro i = 0;i < 5; i++){
+
+                escreva("Olá mundo!")
+                
+            }
+        }
+    }
+
+i = 0 -->> Variável de controle 
+1 < 5 -->> Enquanto o i for menor que 5 será excecutada a função
+i++  -->> Toda vez que for executada o i recebe mais 1
+
+## Laço de repetição =>> Enquanto
+
+* Importante adicionar a incrementação, a parada, se não ficará repetindo sem parar!!!!
+
+    programa {
+        funcao inicio() {
+
+            inteiro i = 0
+
+            enquanto( i < 5 ){
+
+                escreva("Olá Portugol!")
+                i++
+            }     
+        }
+    }
+
+inteiro = 0 -->> variável de controle, vai iniciar em 0.
+1 < 5 -->>> Equanto o i for menor que 5, fará essa ação de escrever o texto.
+i++ -->> Adiciona mais 1 ao valor da variável i, para poder parar o código quando chegar ao valor de 6 na variáveli.
+
+
+##  Quando usar o Enquanto, quando não sei quando vai parar, o usuário deixará de usar!
+
+## Quando usar o Para, quando você sabe até quando vai parar!

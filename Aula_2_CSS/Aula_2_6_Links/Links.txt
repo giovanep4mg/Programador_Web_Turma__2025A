@@ -1,0 +1,37 @@
+###  Links
+
+* No HTML, não há muitos estilos que podemos usar nos links, nas tags "a".
+
+* Para deixar mais estiloso e com alguns efeitos usamos o CSS para isso.
+
+* A tag "a" podemos usar alguns estilos:
+
+-->> a:link  -->> Adiciona uma cor de fundo e uma color de texto diferente:
+
+    a:link{
+        background-color: #b2ff99;
+        color: blue;
+    }
+
+
+-->> a:visited  -->> Quando o link já foi visitado vai ser modificado:
+
+    a:visited{
+        background-color: #ffff85;
+        color: red;
+    }
+
+-->> a:hover -->> Quando o mouse passar por cima do link, ativa essas modificações:
+
+    a:hover{
+        background-color: #77704D;
+        color: green;
+    }
+
+
+-->> a:active -->> Quando o link está ativo:
+
+    a:active{
+        background-color: #ff704d;
+        color: gray;
+    }

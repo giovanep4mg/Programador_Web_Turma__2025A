@@ -1,0 +1,68 @@
+##  Exercício 3: Tabuada do 8
+
+*  Escreva um algoritmo que calcule e imprima a tabuada do 8 (1 a 10). 
+
+## Que eu si e está funcionando:
+
+    programa {
+        funcao inicio() {
+        
+            //  Escreva um algoritmo que calcule e imprima a tabuada do 8 (1 a 10). 
+
+            inteiro tabuada = 8
+
+            para(inteiro valor = 1;valor <= 10; valor++){
+
+            inteiro resultado = valor * tabuada
+
+                escreva(tabuada," x ",valor, " = " ,resultado, "\n")
+
+            }
+        }
+    }
+
+## Usando o " para ", resultado do gabarito: (Só dá o resultado)
+
+    programa {
+        funcao inicio() {
+
+            para(inteiro valor = 1;valor <= 10; valor++){
+
+                escreva(valor * 8, "\n")
+
+            }
+        }
+    }
+
+## Usando o " enquanto ", gabaritoda prova: (só o resultado a operação)
+
+    programa {
+        funcao inicio() {
+
+            inteiro valor = 1
+
+            enquanto( valor <=10 ){
+
+                escreva(valor * 8, "\n")
+                valor++ // valor = valor + 1
+            }     
+        }
+    }
+
+## Usando o " faça " e o " enquanto ", gabaritoda prova;
+
+    programa {
+        funcao inicio() {
+
+            inteiro valor = 1
+
+            faca{
+
+                escreva("\n", valor * 8)
+
+                valor = valor + 1
+
+            } enquanto( valor <= 10)
+        
+        }
+    }

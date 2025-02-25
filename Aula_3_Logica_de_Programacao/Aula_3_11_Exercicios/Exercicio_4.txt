@@ -1,0 +1,27 @@
+##  Exercício 4: Idade
+
+Escreva um programa que peça o ano atual e o ano de seu nascimento. 
+A partir dessas informações, calcule a provável idade da pessoa e exiba na tela.
+
+    programa {
+        funcao inicio() {
+
+            // Variáveis
+            inteiro anoAtual, anoNascimento, idadeUsuario
+
+            // Pede ao usuário para inserir o ano atual
+            escreva("Digite o ano atual:")
+            leia(anoAtual)
+
+            // Pede ao usuário para digitar o ano do seu nascimento 
+            escreva("Digite o ano do seu nascimento:")
+            leia(anoNascimento)
+
+            // Fazendo os cálculos
+            idadeUsuario = anoAtual - anoNascimento
+
+            // Exibir o resultado
+            escreva("Sua idade atual é provávelmente: ",idadeUsuario," anos." )
+            
+        }
+    }

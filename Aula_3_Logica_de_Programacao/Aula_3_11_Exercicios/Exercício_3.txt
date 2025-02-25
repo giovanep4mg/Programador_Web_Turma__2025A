@@ -1,0 +1,25 @@
+##  Exercício 3: Área do triângulo
+
+Escreva um programa que leia 2 valores: lado e altura. 
+Após, calcule a área do triângulo, sabendo que a fórmula é área = (base * altura) / 2
+
+    programa {
+        funcao inicio() {
+        
+        // variáveis
+        real base, altura, area
+
+        // Pede ao usuário para inserir os valores
+        escreva("Digite o valor da base:")
+        leia(base)
+        escreva("Digite o valor da altura:")
+        leia(altura)
+
+        //Cáculando a área (área = (base * altura) / 2)
+        area = (base * altura) / 2
+
+        // Exibi o resultado
+        escreva("A área do triângulo é: ",area)
+
+        }
+    }

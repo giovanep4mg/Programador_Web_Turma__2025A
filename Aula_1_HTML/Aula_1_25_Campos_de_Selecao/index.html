@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Campos de Seleção </title>
+</head>
+<body>
+    
+    <style>
+        .conteudo{
+            display: flex;
+            width: 90%;
+            border: 1px solid black;
+            justify-content: center;
+            padding: 3%;
+            font-size: 3rem;
+        }
+
+        button{
+            text-align: center;
+            width: -webkit-fill-available;
+            font-size: 1.5rem;
+        }
+    </style>
+    
+    <section class="conteudo">
+
+        <form method="post" action="recebe.php" >
+
+            Qual curso você fará? <br>
+            <select name="curso" id="curso">
+
+                <option value="html"> HTML </option>
+                <option value="css"> CSS </option>
+                <option value="javascript"> JavaScript</option>
+
+            </select>
+            
+        </form>
+
+    </section>
+
+</body>
+</html>

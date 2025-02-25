@@ -1,0 +1,92 @@
+##   3.9 Operadores Aritméticos
+
+Os operadores aritméticos são aqueles que permitem realizar as operações básicas da matemática. Vamos lá, eu sei que você lembra deles ;-)
+
+
+Soma: permite acumular dois os mais valores. Na programação, ele é representado pelo símbolo +. Exemplo:
+
+    inteiro valor1, valor2
+
+    valor1 = 2
+
+    valor2 = 5
+
+    resultado = valor1 + valor2
+
+Subtração: permite remover dois os mais valores. Na programação, ele é representado pelo símbolo -. Exemplo:
+
+    inteiro valor1, valor2
+
+    valor1 = 2
+
+    valor2 = 5
+
+    resultado = valor1 - valor2
+
+Multiplicação: permite multiplicar dois os mais valores. Na programação, ele é representado pelo símbolo +. Exemplo:
+
+    inteiro valor1, valor2
+
+    valor1 = 2
+
+    valor2 = 5
+
+    resultado = valor1 * valor2
+
+Divisão: a divisão é ser compreendida por duas operações, a divisão e o resto. Ou seja, na programação, é possível obter o resultado dessas duas operações, tal como em um cálculo normal. Para realizar a divisão, utilizamos o símbolo / . Se a divisão envolve números inteiros, ele retornará o valor inteiro da divisão. Se for número real, ele retornará o valor da divisão com as casas decimais. Já para obter o resto, utilizamos o símbolo %. Lembrando que o resto sempre se dá em relação a uma divisão inteira.Exemplo:
+
+    inteiro valor1, valor2
+
+    valor1 = 2
+
+    valor2 = 5
+
+    divisao = valor2 / valor1
+
+    resto = valor2 % valor1
+
+Ainda, há de se observar a prioridade de operadores. Tal como na matemática tradicional, na programação são respeitadas as mesmas prioridades. Veja os exemplos:
+
+    Exemplo 1: 3 + 7 * 2 => 3  + 14 => 17
+
+    Exemplo 2: (3 + 7) * 2 => 10 * 2 -> 20
+
+Ou seja, realizamos sempre o que se está entre parênteses por primeiro. Depois, as multiplicações e divisões. E por fim, as somas e subtrações. No caso de mais de uma operação do mesmo tipo, a prioridade é da esquerda para direita.
+
+## 3.9.1 Exemplo: Quatro Operadores
+
+* Fazendo as operações matemáticas 
+
+
+    programa {
+        funcao inicio() {
+
+            // Declarando as variáveis
+            real a, b, soma, sub, mult, div
+            
+            //
+            escreva("Digite o primeiro número:")
+            leia(a)
+
+            escreva("Digite o segundo número:")
+            leia(b)
+
+            //
+            soma = a + b
+
+            //
+            sub = a - b
+
+            //
+            mult = a * b
+
+            //
+            div = a / b
+
+            //
+            escreva("\n A soma de ",a," + ",b," é: ",soma)
+            escreva("\n A subtração de ",a," - ",b," é: ",sub)
+            escreva("\n A multiplicação de ",a," * ",b," é: ",mult)
+            escreva("\n A divisão de ",a," / ",b," é: ",div)
+        }
+    }

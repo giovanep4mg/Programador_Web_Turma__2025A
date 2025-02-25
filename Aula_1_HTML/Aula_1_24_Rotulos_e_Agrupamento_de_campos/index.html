@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rótulos e Agrupamentos </title>
+</head>
+<body>
+    <style>
+        .conteudo{
+            display: flex;
+            width: 80%;
+            border: 1px solid black;
+            justify-content: center;
+            padding: 5%;
+            font-size: 3rem;
+        }
+
+        button{
+            text-align: center;
+            width: -webkit-fill-available;
+            font-size: 1.5rem;
+        }
+    </style>
+    
+    <section class="conteudo">
+
+        <form action="post">
+
+            <fieldset>
+                <legend> Dados Pessoais: </legend>
+                Nome: <input type="text" name="nome"> <br>
+                Email: <input type="email" name="email"> <br>
+                Nascimento: <input type="text"> <br>
+            </fieldset>
+
+        </form>
+
+    </section>
+
+</body>
+</html>

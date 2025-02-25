@@ -1,0 +1,28 @@
+*{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+    background-color: rgba(0, 255, 255, 0.163);
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tr{
+    background-color: rgba(15, 224, 25, 0.525);
+    border: 1px solid black;
+    padding: 5px;
+}
+
+td{
+    background-color: rgba(219, 242, 13, 0.605);
+    border: 1px solid black;
+    width: 10%;
+    padding: 5px;
+}

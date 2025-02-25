@@ -1,0 +1,94 @@
+## 2.1 Introdução: tags, IDs, e classes
+
+CSS: 
+->> Consiste em uma folha de estilo.
+->> Os estilod podem ser atribuido, adicionado:
+---  tag do HTML
+--- Uma classes
+--- um IDs
+
+** O CSS pode estar dentro da página ou ficar externo.
+
+** Exemplo de como usar o CSS, dentro da página:
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Título </title>
+    </head>
+    <style>  <<--- AQUI É ONDE ESTÁ O CSS
+        body{
+            color: red;
+            font-size: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+    <body>
+
+        Exemplo de Texto
+
+    </body>
+    </html>
+
+
+
+
+* Pode ser que não tenha a fonte que você selecionou no computador do usuário, por isso,
+ use fontes conhecidas, ou adicione uma segunda fonte, para garantir:
+ --->>>  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+** Outra maneira de usar o CSS é criar um link, para um arquivo CSS fora da página:
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Título </title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="./style.css">  <<<---AQUI ESTÁ LIGANDO AO ESTILO CSS
+    </head>
+    <body>
+
+        Exemplo de Texto
+
+    </body>
+    </html>
+
+# Fora da página, você cria uma arquivo, com o nome "style.css" .
+
+
+** Como usar os indentificadores que usamos para adicionar estilos na página.
+->> Tag (body, div, section, h1,a,.....)
+->> ID ->> só pode ser usado uma vez em cada página.
+->> Class -->> pode ser usado várias vezes.
+
+Exemplo, que está no arquivo CSS "style.css":
+
+    // Vai configurar tudo que tiver na tag body
+    body{
+        font-weight: bold;
+    }
+
+    // id ->> vai modificar o que foi marcado com esse "id".
+    #id1{
+        font-size: 24px;
+    }
+
+    // Class -->> vai modificar todos que tiverem uma classe com esse nome.
+    .class1{
+        font-size: 10px;
+    }
+
+## Podemos misturar os estilos, veja o exemplo abaixo:
+
+        <p> Parágrafo comum ... </p>
+
+        <p class="class1"> Parágrafo com classe ...</p>
+        
+        <p class="class1" id="id1">Parágrafo com classe e identificar ...</p>
+
+

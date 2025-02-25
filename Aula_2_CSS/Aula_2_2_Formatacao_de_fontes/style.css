@@ -1,0 +1,44 @@
+
+.text-decoration-aula{
+    border: 1px solid black;
+    padding: 2%;
+}
+
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.5em;
+    text-align: justify;
+}
+
+.inferior{
+    text-decoration: underline;
+}
+
+.superior{
+    text-decoration: overline;
+}
+
+.centro{
+    text-decoration: line-through;
+}
+
+.pisca{
+    text-decoration: blink;
+}
+
+.titulo2{
+    font-family: sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    text-shadow: blue 6px 3px 4px ;
+    text-transform: capitalize;
+}
+
+.paragrafo2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-align: justify;
+    text-indent: 30pt;
+}

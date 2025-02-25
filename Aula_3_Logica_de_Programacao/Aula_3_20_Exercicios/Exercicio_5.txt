@@ -1,0 +1,30 @@
+##  Exercício 5: Maior de três valores
+
+*  Ler 3 valores (considere que não serão informados valores iguais) e escrever o maior deles.
+
+    programa {
+        funcao inicio() {
+
+            //Variáveis
+            inteiro valor1, valor2, valor3
+
+            // Pede ao usuário para inserir os valores
+            escreva ("Informe o valor 1: ")
+            leia(valor1)
+            escreva ("Informe o valor 2: ")
+            leia(valor2)
+            escreva ("Informe o valor 3: ")
+            leia(valor3)
+
+            // Verificação      
+            se(valor1 > valor2 e valor1 > valor3){
+                escreva ("O valor 1 é o maior")
+            } senao {
+                se(valor2 > valor1 e valor2 > valor3){
+                    escreva ("O valor 2 é o maior")
+                } senao {
+                    escreva ("O valor 3 é o maior")
+                }
+            }
+        }
+    }

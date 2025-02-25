@@ -1,0 +1,34 @@
+##     3.27 Vídeo sobre Vetores (listas)
+
+*  Os vetores são estruturas que nos permite armazenar, em uma mesma variável, mais de valor daquele tipo.
+
+* Criamos lista de objetos, coisa, nomes, etc...
+
+* Veja um exemplo de como criar um vetor:
+
+    // criando um vetor com 5 nomes de paises
+    cadeia paises [5] = {"BRA","ARG","ITA","CHILE","EUA"}
+
+    // Exibindo o nome que estiver na posição 0 do vetor
+    escreva("Pais: ",paises[0])
+
+* Podemos usar um laço de repetição para precorrer todo o vetor:
+
+    programa {
+        funcao inicio() {
+
+            // criando um vetor com 5 nomes de paises
+            cadeia paises [5] = {"BRA","ARG","ITA","CHILE","EUA"}
+
+            // Repete 5 vezes essa ação, 
+            para(inteiro i = 0;i < 5; i++){
+
+                // Pega o número da var "i" e usa como indice para selecionar os paises, e exibi na tela
+                escreva("\n Pais: ",paises[i])
+
+            }
+        
+        }
+    }
+
+## Podemos criar um vetor, vazio e ir adicionando depois as coisas.

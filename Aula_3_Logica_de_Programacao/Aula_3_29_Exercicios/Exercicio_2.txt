@@ -1,0 +1,23 @@
+###  Exercício 2: Nome corrente
+
+* Faça um programa que crie um vetor para abrigar 5 nomes de pessoas. 
+* Também crie uma variável que guardará a posição de um vetor. 
+* Depois, indique que a posição é 3 e que nesta posição deve ser armazenado o nome Amanda. 
+* Exiba na tela o conteúdo da posição corrente.
+
+    programa {
+        funcao inicio() {
+            
+            // Criando o vetor com 5 posições, e a variável posição
+            cadeia nomes [5] 
+            inteiro posicao
+
+            // Adicionando valores dentro do vetor e das variáveis
+            posicao = 3
+            nomes [posicao] = "Amanda"
+
+            // Exibindo o que está dentro do vetor na posição 3
+            escreva("O vetor na posição 3 é: ",nomes[posicao])
+        
+        }
+    }

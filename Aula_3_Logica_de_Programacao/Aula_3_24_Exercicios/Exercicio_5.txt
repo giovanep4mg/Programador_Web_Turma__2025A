@@ -1,0 +1,35 @@
+##  Exercício 5: Quantidade negativos
+
+* Ler 10 valores e escrever quantos desses valores lidos são NEGATIVOS.
+
+programa {
+    funcao inicio() {
+      // Ler 10 valores e escrever quantos desses valores lidos são NEGATIVOS.
+
+        // variáveis do tipo inteiro
+        inteiro valor,soma
+
+        // inicia as variáveis valendo 0
+        valor = 0
+        soma = 0
+
+        // Inicia a contagem em 1, e se for menor ou igual a 10, aumenta mais 1 na var contagem
+        para(inteiro contagem = 1;contagem <= 10; contagem++){
+
+              // Pede ao usuário para digitar um número
+              escreva("Digite uma valor: ")
+              //salva o número digitado na variável "valor"
+              leia(valor)
+
+              // Verifica se o número digitado é menor que zero
+              se( valor < 0 ){
+
+                  // Se for menor, soma +1 na variável "soma"
+                  soma = soma +1
+
+              }
+        }
+        // Exibi o resultado da soma dos valores adicionados
+        escreva("A quantidade de números negativos são: ",soma)
+    }
+}

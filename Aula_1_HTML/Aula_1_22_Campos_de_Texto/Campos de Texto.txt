@@ -1,0 +1,49 @@
+###   Campos de texto
+
+* Um dos tipos de campos mais frequentes dentro de formulários HTML é o campo do tipo texto.
+* Ele é responsável por receber informações textuais, como: nome, endereço, o cep, o cpf, ou seja,
+ tudo que pode ser composto por letras, números e símbolos.
+
+ * E precisamos sempre usar a tag "form" para criar o formulário.
+
+        <form method="post" action="recebe.php">
+
+        </form>
+
+ * O campo texto é descrito através do comando input, então a gente vai fazer uma entrada de dados, o input dentro do formulário, e a gente vai dizer que tipo de entrada que a gente quer fazer, nesse caso a gente quer um campo texto, então a gente vai colocar input type text para definir que o tipo de entrada, o tipo de campo que a gente quer definir dentro do formulário vai ser um campo do tipo texto. 
+
+        <form method="post" action="recebe.php">
+            Nome: <input type="text" > <br>
+            Email: <input type="text"> 
+        </form>
+
+* A gente precisa dar um nome para cada um desses campos do formulário.
+* Usando " name = "?" " , como no exemplo abaixo:
+
+        <form method="post" action="recebe.php">
+            Nome: <input type="text" name="nome" > <br>
+            Email: <input type="text" name="Email" > 
+        </form>
+
+* Existem vários outros parâmetros que podem ser usados na tag "input".
+
+***** Campos de senha
+* Por exemplo para senhas é melhor usar o parâmetro "passowrd", 
+que aparecer asteriscos ao invés do que você anotou:
+
+        <form method="post" action="recebe.php">
+
+            SENHA: <input type="password" name="senha"> <br>
+
+        </form>
+
+** Campo de textarea
+
+        <form method="post" action="recebe.php">
+
+            SENHA:  name="senha"> <br>
+
+        </form>
+
+
+1

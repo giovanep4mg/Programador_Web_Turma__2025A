@@ -1,0 +1,25 @@
+## Exercício 3: Ordem crescente
+
+* Ler dois valores (considere que não serão lidos valores iguais) e escrevê-los em ordem crescente.
+
+    programa {
+        funcao inicio() {
+
+            //variáveis
+            inteiro valor1, valor2, resultado
+
+            // Pede ao usuário para adicionar os valores
+            escreva("Digite o valor 1:")
+            leia(valor1)
+            escreva("Digite o valor 2:")
+            leia(valor2)
+            
+            // Verificação
+            se(valor1 < valor2){
+            escreva("Ordem crescente: ",valor1, "," ,valor2)
+            } senao{
+            escreva("Ordem crescente: ",valor2," , " ,valor1)
+            }
+            
+        }
+    }

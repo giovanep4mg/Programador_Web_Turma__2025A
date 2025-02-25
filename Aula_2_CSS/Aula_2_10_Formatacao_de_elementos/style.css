@@ -1,0 +1,32 @@
+
+/* Configuração geral de todas as Divs */ 
+div{
+    border-style: solid;
+    border-width: 2px;
+    position: absolute;
+}
+
+/* Configuração da Div selecionada pela sua classe */
+.quadro1{
+    top: 0;
+    width: 202px;                                                                                                    
+    height: 100px;
+    background-color: yellow;
+}
+
+/* Configuração da Div selecionada pela sua classe */
+.quadro2{
+    top: 102px;
+    width: 100px;                                                                                                    
+    height: 100px;
+    color: red;
+}
+
+/* Configuração da Div selecionada pela sua classe */
+.quadro3{
+    top: 102px;
+    left: 110px;
+    width: 100px;                                                                                                    
+    height: 100px;
+    border-style: dotted;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Novos Campos </title>
+</head>
+<body>
+    
+    <style>
+        .conteudo{
+            display: flex;
+            width: 90%;
+            border: 1px solid black;
+            justify-content: center;
+            padding: 3%;
+            font-size: 3rem;
+            flex-direction: column;
+        }
+
+        button{
+            text-align: center;
+            width: -webkit-fill-available;
+            font-size: 1.5rem;
+        }
+    </style>
+    
+    <section class="conteudo">
+
+
+        <form method="post" action="recebe.php" >
+            
+            <fieldset>
+                <legend> Campo Email  </legend>
+                <input type="email" name="email">
+            </fieldset>
+
+        </form>
+
+        <form method="post" action="recebe.php" >
+            
+            <fieldset>
+                <legend> Campo Data </legend>
+                <input type="date" name="data">
+            </fieldset>
+
+        </form>
+
+        <form method="post" action="recebe.php" >
+            
+            <fieldset>
+                <legend> Range </legend>
+                <input type="range" name="faixa">
+            </fieldset>
+
+        </form>
+
+        <form method="post" action="recebe.php" >
+            
+            <fieldset>
+                <legend> Cor </legend>
+                <input type="color" name="cor">
+            </fieldset>
+
+        </form>
+
+        <form method="post" action="recebe.php" >
+            
+            <fieldset>
+                <legend> Lista </legend>
+                <input list="cursos" name="curso">
+                <datalist id="cursos">
+                    <option value="HTML"> html </option>
+                    <option value="CSS"></option>
+                    <option value="JavaScript"></option>
+                </datalist>
+            </fieldset>
+
+        </form>
+
+
+    </section>
+
+</body>
+</html>

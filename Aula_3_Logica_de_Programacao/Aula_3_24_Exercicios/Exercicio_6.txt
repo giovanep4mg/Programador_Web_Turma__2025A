@@ -1,0 +1,30 @@
+##  Exercício 6: Média aritmética
+
+* Ler 20 valores, calcular e escrever a média aritmética desses valores lidos.
+
+programa {
+    funcao inicio() {
+
+        // variáveis do tipo inteiro
+        inteiro valor,soma
+
+        // inicia as variáveis valendo 0
+        valor = 0
+        soma = 0
+
+        // Inicia a contagem em 1, e se for menor ou igual a 20, aumenta mais 1 na var contagem
+        para(inteiro contagem = 1;contagem <=20; contagem++){
+
+            // Pede ao usuário para digitar um valor
+            escreva("Digite uma valor: ")
+            //salva o número digitado na variável "valor"
+            leia(valor)
+
+            // soma o valor digitado mais o valor da var "soma"
+            soma = soma + valor 
+
+        }
+        // Exibi o resultado da média, dos valores adicionados pelo usuário
+        escreva("A média é: ",soma/20)
+    }
+}

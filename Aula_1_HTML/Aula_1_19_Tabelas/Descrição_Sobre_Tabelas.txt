@@ -1,0 +1,24 @@
+##  Tabelas 
+
+* As tabelas são estruturas contendo linhas e colunas onde e a gente vai organizar informação dentro dela como vocês podem ver nesse exemplo aí na tela de vocês a tabela não é constituída apenas de uma tag mas sim de um conjunto de várias tags.
+
+* Para criar uma tabela, precisa usar a tag "table" e dentro dela..
+* Adicionamos a linha, que será a tag "tr", e para fazer una coluna usamos a tag "td".
+
+Exemplo de tabela simples:
+
+    <!--Criando uma tabela simples -->
+    <table>
+        <tr> 
+            <td> Coluna 1, Linha 1 </td>
+            <td> Coluna 2, Linha 1</td>
+        </tr>
+        <tr>
+            <td> Coluna 1, Linha 2</td>
+            <td> Coluna 2, Linha 2</td>
+        </tr>
+    </table>
+
+* Usamos normalmente somente 2 parâmetros:
+->>> colspan  ->> Ocupa mais colunas
+->>> rowspan  ->> Ocupa mais linhas

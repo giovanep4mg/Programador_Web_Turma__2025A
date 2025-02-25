@@ -1,0 +1,52 @@
+## 1.26 Novos Campos
+
+* O HTML5 trouxe novas opções de campos de entrada de dados em formulários.
+
+* Vamos ver alguns, os principais:
+
+## Campo de email, exclusivo para email.
+
+        <form method="post" action="recebe.php" >
+            
+            <input type="email" name="email">
+            
+        </form>
+
+## Campo de data -->>> date:
+
+        <form method="post" action="recebe.php" >
+            
+            <input type="date" name="data">
+
+        </form>
+
+## Campo de Escala, barra de rolagem, definida pelo usuário tipo de 0 a 10:
+
+        <form method="post" action="recebe.php" >
+            
+            <input type="range" name="faixa">
+
+        </form>
+
+## Cor onde o usuário seleciona uma cor:
+
+        <form method="post" action="recebe.php" >
+            
+            <input type="color" name="cor">
+
+        </form>
+
+## Tipo Lista, que é uma mistura onde o usuário pode digitar e escolher entre algumas opções:
+
+        <form method="post" action="recebe.php" >
+            
+            <input list="cursos" name="curso">
+            <datalist id="cursos">
+                <option value="HTML"> html </option>
+                <option value="CSS"></option>
+                <option value="JavaScript"></option>
+            </datalist>
+
+        </form>
+
+

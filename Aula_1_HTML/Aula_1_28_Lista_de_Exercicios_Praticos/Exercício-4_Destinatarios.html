@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exercício 4: Destinatários </title>
+</head>
+<body>
+    <style>
+        form{
+            padding: 2%;
+        }
+        section{
+            border: 1px solid black;
+            padding: 1%;
+        }
+    </style>
+
+    <section>
+
+        <h2>Como eu fiz: </h2>
+
+        <form method="post" action="seila">
+
+            <h2> Enviar e-mail para: </h2>
+            <input type="checkbox" name="email" value="pedro"> Pedro (pedro@email.com) <br>
+            <input type="checkbox" name="email" value="lucas"> Lucas (llucas@email.com) <br>
+            <input type="checkbox" name="email" value="marcos"> Marcos (marcos@email.com) <br>
+            <input type="checkbox" name="email" value="maria"> Maria (maria@email.com) <br>
+            <br>
+            <button type="submit"> Enviar E-mail </button>
+            
+        </form>
+    </section>
+
+    <section>
+
+        <h2>Como deveria ser feito: </h2>
+
+        <form method="post" action="seila">
+
+            <h2> Enviar e-mail para: </h2>
+            <input type="checkbox" name="email" id="pedro" value="1"> 
+            <label for="pedro"> Pedro (pedro@email.com) </label> <br>
+
+            <input type="checkbox" name="email" id="lucas" value="1">
+            <label for="lucas"> Lucas (llucas@email.com) </label> <br>
+
+            <input type="checkbox" name="email" id="marcos" value="1"> 
+            <label for="marcos"> Marcos (marcos@email.com) </label> <br>
+
+            <input type="checkbox" name="email" id="maria" value="1"> 
+            <label for="maria"> Maria (maria@email.com) </label> <br>
+            <br>
+
+            <button type="submit"> Enviar E-mail </button>
+            
+        </form>
+    </section>
+    
+</body>
+</html>

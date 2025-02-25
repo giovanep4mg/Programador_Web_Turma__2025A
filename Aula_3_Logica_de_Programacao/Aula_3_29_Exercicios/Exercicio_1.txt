@@ -1,0 +1,37 @@
+##  Exercício 1: Preenchendo o vetor
+
+*  Faça um programa que contenha um vetor de 4 posições. 
+* Preencha as posições com os valores 5, 9, 20, 5. 
+* Exiba o valor contido na posição 2.
+
+    programa {
+        funcao inicio() {
+        
+            // Vetor com 4 posições
+            inteiro numeros [4] = { "5", "9", "20", "5" }
+
+            // Exibi o valor na posição 2
+            escreva("Posição 2: ",numeros[2])
+            
+        }
+    }
+
+## Como foi feito no site, o gabarito:
+
+    programa {
+        funcao inicio() {
+
+        // criando um vetor com 4 posições
+        inteiro vetor[4]
+
+        // Adicionando as posições e valores 
+        vetor[0] = 5
+        vetor[1] = 9
+        vetor[2] = 20
+        vetor[3] = 5
+
+        // Exibi a mensagem, com o valor na posição 2
+        escreva("O vetor na posição 2 é "+vetor[2])
+        
+        }
+    }
