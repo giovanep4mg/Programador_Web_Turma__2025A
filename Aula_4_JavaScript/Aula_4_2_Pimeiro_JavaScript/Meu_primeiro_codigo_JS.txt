@@ -1,0 +1,19 @@
+##   4.2 Exemplo: meu primeiro código JS
+
+* Podemos adicionar o arquivo JavaScript, dentro da página HTML,no head ou body.
+* Também podemos criar um arquivo externo, com a extensão -> js  .
+
+* O JavaScript, segue o comando de ação linha por linha, da primeira pra baixo.
+
+* Adicionando o JS no HTML, dentro da tag "body", adicionamos essa tag:
+
+--->>>>>    <script>
+                alert("Deu certo! ")
+            </script>
+
+* Criamos a tag " script " e dentro dela adicionamos os códigos.
+
+* Mas quando temos muito código JS, é melhor adicionar em um arquivo externo, como no CSS.
+
+* Usando esse código:
+<script src=""></script>
