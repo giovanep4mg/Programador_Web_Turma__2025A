@@ -1,1 +1,109 @@
 ###     Vídeo sobre Funções
+
+* Funções são pequenos módulos de programas que podem ser reaproveitados.
+
+* Vamos transforma esse código abaixo numa função:
+
+        programa {
+            funcao inicio() {
+
+                inteiro v1 = 2
+                inteiro v2 = 3
+                inteiro resultado = 0
+                resultado = v1 + v2
+                escreva("O resultado da soma é: ",resultado)
+        
+            }
+        }
+
+* Criamos uma função que vai receber, dois parâmetros, dois valores:
+*** A função deve ser criada abaixo do " programa { " :
+
+        // Criamos a função que deve receber dois parâmetros
+        funcao soma(inteiro a, inteiro b){
+
+            // somamos os valores recebidos no parâmetro e salvamos na var "resultado"
+            inteiro resultado = a + b
+
+            // Exibindo o Resultado 
+            escreva("O resultado da soma é: ",resultado)
+
+        }
+
+* Para usar essa função temos que chamar ela no "inicio"
+
+        funcao inicio() {
+        
+            // variáveis com os valores adicionados
+            inteiro v1 = 2
+            inteiro v2 = 3
+
+            // Chamando a função e adicionando os parâmetros
+            soma(v1,v2) ***
+        }
+
+*** Não precisa ter necessariamente a variável com o mesmo nome, como parâmetro está o " a " e " b ",
+mas chamamos a função soma, usamos o " v1 " e " v2 ".
+** O importante é que seja um valor inteiro, que é o que a função está esperando receber como parâmetro.
+
+# Veja o código completo como fica:
+
+    programa {
+
+        // Criamos a função que deve receber dois parâmetros
+        funcao soma(inteiro a, inteiro b){
+
+            // somamos os valores recebidos no parâmetro e salvamos na var "resultado"
+            inteiro resultado = a + b
+
+            // Exibindo o Resultado 
+            escreva("O resultado da soma é: ",resultado)
+
+        }
+
+        funcao inicio() {
+        
+            // variáveis com os valores adicionados
+            inteiro v1 = 2
+            inteiro v2 = 3
+
+            // Chamando a função e adicionando os parâmetros
+            soma(v1,v2)
+        }
+    }
+
+* Pode criar várias funções, mais só poder ter um nome, não pode ter nome igual num programa.
+
+## Função com retorno
+
+* É mais útil pode ser usada em diferentes contesto.
+
+    programa {
+
+        // Função para retorna um valor, recebendo 2 parâmetros
+        funcao inteiro soma(inteiro a, inteiro b){
+
+            // Vai soma os valores recebidos e retorna o resultado
+            retorne ( a + b )
+
+        }
+
+        funcao inicio() {
+
+            // Variáveis com os valores já adicionados
+            inteiro v1 = 3
+            inteiro v2 = 22
+            inteiro resultado = 0
+
+            // chama a função, passa os valores, e salva na var resultado
+            resultado = soma(v1,v2)
+
+            // Exibi o resultado na tela
+            escreva("O resultado é: ",resultado)
+        
+        }
+    }
+
+**** Quando é função de retorno precisa ser assim, nome = funcao, tipo = inteiro, o que faz= soma
+-------->>>> funcao inteiro soma { ......  }
+

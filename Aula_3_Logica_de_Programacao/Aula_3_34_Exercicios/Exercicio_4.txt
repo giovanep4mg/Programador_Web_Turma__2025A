@@ -1,0 +1,35 @@
+##   Exercício 4: Hora, Minuto, Segundo
+
+* Faça uma sub-rotina que receba um único valor representando segundos. 
+* Essa função deverá convertê-lo para horas,  minutos e segundos. 
+* Todas as variáveis devem ser passadas como parâmetro, não havendo variáveis globais.
+
+programa {
+      // Função que vai receber os parâmetros
+      funcao tempo(inteiro t, inteiro &h, inteiro &m, inteiro &s){
+
+          // multiplica 60 x 60 e divide pelo valor adicionado pelo usuário, e salva na var "h"
+          h = t / (60*60)
+          // 
+          m = (t-(h*60*60)) / 60
+          //
+          s = (t-(h*60*60)) % 60
+
+      }
+      funcao inicio() {
+
+        //criando as variáveis e iniciando com o valor de zero
+        inteiro total, hora = 0, minuto = 0, segundo = 0
+
+        // Pede ao usuário para adicionar os segundos e salva na var "total"
+        escreva("Informe os segundos: ")
+        leia(total)
+
+        // Chama a função, passando os prâmetros para ela
+        tempo(total,hora,minuto,segundo)
+
+        // Exibi o resultado na tela
+        escreva("A soma é: ",hora,".",minuto,",",segundo)
+        
+      }
+}

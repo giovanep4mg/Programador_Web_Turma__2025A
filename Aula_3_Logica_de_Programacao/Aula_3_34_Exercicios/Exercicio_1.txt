@@ -1,0 +1,54 @@
+##  Exercício 1: Positivo ou Negativo
+
+* Faça um programa contendo uma função que retorne 1 se o número digitado for positivo ou 0 se for negativo.
+
+programa {
+
+      // Funçao, recebe um número como parâmetro
+      funcao numero(real x){
+
+          //Verifica, se x for maior que 0, é positivo, se não for é negativo
+          se(x > 0){
+            escreva("Número é positivo - 1")
+          } senao{
+            escreva("Número é negativo - 0")
+          }
+        
+      }
+
+      funcao inicio() {
+
+          // Variável iniciada com valor de 0
+          real x = 0
+
+          // Pede ao usuário para adicionar um valor, depois salva na var x
+          escreva("Digite um valor positivo ou negativo: ")
+          leia(x)
+
+          // Chama a função "numero" e executa ela
+          numero(x)
+
+      }
+}
+
+### gabarito do exercicio:
+
+programa {
+
+    funcao inteiro positivonegativo( inteiro numero){
+
+        se(numero < 0){
+          retorne 0
+        } 
+        senao {
+          retorne 1
+        }
+    }
+
+    funcao inicio() {
+
+        escreva(positivonegativo(-5),"\n")
+        escreva(positivonegativo(1))
+      
+    }
+}

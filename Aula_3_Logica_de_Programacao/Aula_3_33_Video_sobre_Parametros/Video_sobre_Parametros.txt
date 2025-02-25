@@ -1,0 +1,76 @@
+##  3.33 Vídeo sobre Parâmetros
+
+* Quando passa uma variável como parâmetro, não estamos passando a variável e sim o valor dela.
+
+* Por exemplo veja esse código, foi chamada a função 3 vezes, mais o valor da variável não mudou:
+
+    programa {
+        // função soma recebe como parâmetro um valor inteiro
+        funcao soma(inteiro a){
+            // Pega o valor
+            a++
+
+        }
+        funcao inicio() {
+            // variável inicializada valendo 1
+            inteiro x = 1
+
+            // chama a função e passa o valor de x para ela
+            soma(x)
+            // exibe o resultado
+            escreva(x)
+            
+            // chama a função e passa o valor de x para ela
+            soma(x)
+            // exibe o resultado
+            escreva(x)
+
+            // chama a função e passa o valor de x para ela
+            soma(x)
+            // exibe o resultado
+            escreva(x)
+        
+        }
+    }
+
+##### Como alterar  o valor de uma variável passando ela por parâmetro
+
+Eu não passo somente o valor dela, eu passo a variável. 
+E fazendo isso, eu estou fazendo uma passagem de parâmetro por referência. 
+
+Para fazer isso, eu preciso acrescentar um "E comercial (&)" na frente do parâmetro que eu passo pra função. 
+Nesse caso eu estou dizendo que eu não quero passar somente o valor da variável, estou passando uma referência pra ela. 
+Então tudo que acontecer dentro da função, com aquele parâmetro passado por referência, altera o valor da variável lá no programa principal. 
+
+* Veja como fica o código:
+
+    programa {
+        // função soma recebe como parâmetro um valor inteiro
+        funcao soma(inteiro &a){
+            // Pega o valor
+            a++
+
+        }
+        funcao inicio() {
+            // variável inicializada valendo 1
+            inteiro x = 1
+
+            // chama a função e passa o valor de x para ela
+            soma(x)
+            // exibe o resultado
+            escreva(x)
+
+            // chama a função e passa o valor de x para ela
+            soma(x)
+            // exibe o resultado
+            escreva(x)
+
+            // chama a função e passa o valor de x para ela
+            soma(x)
+            // exibe o resultado
+            escreva(x)
+        
+        }
+    }
+
+*** Agora o resultado será: 234

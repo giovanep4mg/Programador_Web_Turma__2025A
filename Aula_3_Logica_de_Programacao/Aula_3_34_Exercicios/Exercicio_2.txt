@@ -1,0 +1,56 @@
+##  Exercício 2: Maior e Menor valor
+
+* Faça uma função que leia cinco valores inteiros, determine e mostre o maior e o menor deles.
+
+programa {
+
+    // Função que vai receber um vetor "lista"
+    funcao maiormenorde5(inteiro numeros[]){
+
+        // cria uma variavel com o nome de maior, com zero posições
+        inteiro maior = numeros[0]
+
+        // cria uma variável com o nome de menor, com zero posições
+        inteiro menor = numeros[0]
+
+        // Laço de repetição, para verificar quais são os maiores e menores números
+        para(inteiro n = 1;n < 5; n++){
+
+            // Verifica se o número selecionado é maior que zero
+            se (numeros[n] > maior){
+
+              // se for maior, salva na variável maior
+              maior = numeros[n]
+
+            // Verifica se o número é menor que zero
+            } se(numeros[n] < menor){
+
+              // se for menor salva na variável menor
+              menor = numeros[n]
+            }
+        }
+        // Exibi na tela os valores maiores e menores que foram digitados
+        escreva("Maior número ",maior,"\n")
+        escreva("Menor número ", menor,"\n")
+
+    }
+      funcao inicio() {
+
+          // cria um vetor com 5 posições
+          inteiro numeros[5]
+
+          // Pede ao usuário para digitar os números
+          escreva("Escreva os números: ")
+
+          // Laço de repetição, para pegar os números digitados pelo usuário 
+          para(inteiro n = 0; n < 5; n++){
+            
+              // e salva no vetor
+              leia(numeros[n])
+          }
+
+          // Executa a função 
+          maiormenorde5(numeros)
+        
+      }
+}

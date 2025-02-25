@@ -1,0 +1,48 @@
+##   Exercício 3: Soma Matriz
+
+* Faça uma função que receba como parâmetro uma matriz A(5,5) preenchida com números reais e
+ retorne a soma de seus elementos.
+
+ programa {
+      // funçao que recebe a matriz e faz a soma do seus valores
+
+      funcao real somaMatriz( real mat[][]){
+
+          // inicia a variável com o valor de 0
+          real soma = 0
+
+          // Laço de repetição, pegando os valores nas linhas e colunas da matriz
+          para(inteiro i = 0; i < 5; i++){
+            para(inteiro j = 0; j < 5; j++){
+
+              // soma os valores obtidos e salva na variável "soma"
+              soma = soma + mat[i][j]
+            }
+          }
+          // retorna o resultado da soma
+          retorne soma
+      }
+      funcao inicio() {
+
+          // criando a matriz com 5 linhas e 5 posições
+          real matriz[5][5]
+
+          // Pede ao usuário para adicionar um número
+          escreva("Digite um número: \n")
+
+          // Laço de repetição, percorrendo as linhas e colunas da matriz
+          para(inteiro i = 0;i < 5;i++){
+            para(inteiro j = 0;j < 5;j++){
+
+                // Mostra a posição, linha e coluna que será adicionado os números 
+                escreva("Posição [",( i + 1 ),"][",( j + 1 ),"]")
+
+                // Salva na matriz, nas linhas e colunas
+                leia(matriz[i][j])
+            }
+          }
+          // Exibi o resultado da soma de todos os valores, números adicionados
+          escreva("A soma é: ",somaMatriz(matriz))
+        
+      }
+}
