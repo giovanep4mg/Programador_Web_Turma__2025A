@@ -1,0 +1,35 @@
+##   Confirmação
+
+* O nosso próximo exemplo utilizando o desvio, ou seja, o nosso comando IF, a gente vai utilizar um exemplo muito comum nas páginas. 
+
+* Eu acho que vocês já devem ter navegado em alguns sites onde, se vocês abandonam o site ou deixam de fazer alguma ação, ele pergunta se vocês desejam realmente sair.
+
+* Vamos ver uma nova janela, janela de Confirmação:
+
+    var sair = confirm("Confirma ir para a página do Google?");
+ 
+    if( sair == 1 ){
+        window.location = "https://www.google.com.br"
+    }
+
+** Vamos explicar esse código parte por parte:
+
+->> Primeiro criamos uma variável que tem um texto informando o usuário o que irá acontecer,
+->> Exibirá uma caixa de mensagem, com duas opções: OK e CANCELAR, 
+
+      var sair = confirm("Confirma ir para a página do Google?");
+
+-->> Se o usuário selecionar OK, será redirecionado para a página do Google, que é o link que está no código.
+-->> Se o usuário selecionar CANCELAR, permanece na página e nada muda.
+
+        // valor verdadeiro igual a 1, falso igual a 2
+
+        if( sair == 1 ){
+            window.location = "https://www.google.com.br"
+        }
+
+** Temos dois simbolos de iguais o " = " e o " == ":
+-->>> " = " é atribuição, ou seja, está dentro de algo, o texto está dentro da variável " nome = giovani ;"
+-->>> " == "  é simbolo de igualdade, é igual a , exemplo : " 4 = 4"...
+
+

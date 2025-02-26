@@ -1,0 +1,27 @@
+##   Laços de repetição
+
+* Para repetir uma ação várias vezes.
+
+## O código:
+
+    var repete = 1
+
+    while( repete <= 3 ){
+        alert("Mensagem: "+repete);
+        repete = repete + 1;
+    }
+
+## Explicando o código linha por linha:
+
+    // Criamos uma variável "repete" que recebe o valor de 1
+    var repete = 1
+
+    // O while significa "enquanto", enquanto ( repete for menor ou igual a 3 ) acontecerá uma ação
+    while( repete <= 3 ){
+
+        // Exibirá essa mensagem, com o valor que está dentro da variável "repete"
+        alert("Mensagem: "+repete);
+
+        // toda vez que repetir o laço, será adicionado +1 ao valor da variável "repete"
+        repete = repete + 1; <<<-- Importante ter essa parte para parar o laço de repetição!!!!
+    }

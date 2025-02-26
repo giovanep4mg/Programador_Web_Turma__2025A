@@ -11,9 +11,26 @@
                 alert("Deu certo! ")
             </script>
 
-* Criamos a tag " script " e dentro dela adicionamos os códigos.
+* O JavaScript pode ser escrito de duas formas:
 
-* Mas quando temos muito código JS, é melhor adicionar em um arquivo externo, como no CSS.
+* Arquivo Externo: Referenciado com -->>> <script src="arquivo.js"></script>.
 
-* Usando esse código:
-<script src=""></script>
+* Código Interno: Escrito diretamente dentro da tag <script> no HTML.
+---->>>>>        <script src=""></script>
+
+###   Localização da Tag <script>
+
+* Pode ser colocada no <head> ou no <body>, dependendo do propósito:
+
+--->> No <head>: Usado quando o script precisa ser carregado antes do corpo da página.
+--->> No <body>: Recomendado para scripts que interagem diretamente com elementos da página.
+--->> No final do <body>: Melhor para páginas mais complexas ou com bibliotecas pesadas, evitando que o carregamento da página seja atrasado.
+
+###  Caixa de Alerta (alert)
+
+    <script>
+        alert("Deu certo! ")
+    </script>
+
+** Exibi uma caixinha de alerta, com essa mensagem "Deu certo!".
+

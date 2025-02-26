@@ -1,0 +1,62 @@
+###  4.3 Operações aritméticas
+
+* Para começar, precisamos de um arquivo HTML que referencia um arquivo JavaScript externo.
+
+* O JavaScript pode ser incluído em uma página HTML assim:
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Exemplo JavaScript</title>
+        <script src="meucodigo.js"></script> <<<<---AQUI ESTÁ O LINK PARA O JAVASCRIPT
+    </head>
+
+* Criamos um arquivo com o nome " meucodigo.js ", ele será nosso javascript.
+* Criamos também um arquivo chamado " index.html ", para ligarmos ao javascript.
+
+
+##  No JavaScript, usamos a palavra-chave var para criar variáveis. 
+* Vamos declarar duas variáveis e atribuir valores a elas:
+
+        var A = 12; 
+        var B = 3;
+
+* Para exibir na página, na caixa de alerta: 
+
+-->>        alert(A + B);
+
+* O JavaScript lê e executa o código linha por linha. Se tentarmos somar antes de declarar uma variável, teremos um erro.
+
+##  Podemos realizar outras operações matemáticas:
+
+    var soma = A + B;            // Soma
+    var subtracao = A - B;       // Subtração
+    var multiplicacao = A * B;   // Multiplicação
+    var divisao = A / B;         // Divisão
+
+##  Podemos personalizar a mensagem do alerta usando strings (textos) e concatenando com os valores numéricos:
+    
+            var A = 12; 
+            var B = 3;
+            var C = A + B;
+                    
+            alert("Total da Soma: " + C);
+
+##  Trabalhando com Números Decimais:
+
+* No JavaScript, números decimais devem ser escritos com ponto e não com vírgula.
+
+    var D = 12.5;  
+    var E = 3.2;  
+    var resultado = D + E;  
+    alert(resultado);  
+
+##  Adicionando textos nas variáveis, no arquivo js faça isso:
+
+    // Cria uma variável para guarda o nome
+    var nome 
+
+    // pede ao usuário para inserir o nome
+    nome = prompt("Digite seu nome: ")
+
+    // Depois exibirá um alerta com o nome que foi adicionado
+    alert("Seu nome é : "+nome)
