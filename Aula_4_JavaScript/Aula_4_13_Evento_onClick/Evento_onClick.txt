@@ -1,0 +1,3 @@
+##   onClick
+
+* No onClick a gente tem dois tipos de evento: o onClick, que é quando a gente faz o click normal do mouse, uma vez só, e onDblClick, quando a gente faz aqueles 2 cliques bem rápidos em cima do elemento, que normalmente vocês fazem quando precisa abrir um arquivo no computador, a gente dá aqueles dois cliques bem rápidos para abrir o arquivo no software determinado.

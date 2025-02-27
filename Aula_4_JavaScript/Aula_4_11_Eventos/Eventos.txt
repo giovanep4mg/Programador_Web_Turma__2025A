@@ -1,0 +1,16 @@
+##    Eventos
+
+Resumo da Aula sobre JavaScript
+A aula apresenta uma introdução ao JavaScript, explicando que a linguagem não se limita apenas a pequenos programas, mas é amplamente utilizada para tornar páginas web mais interativas. 
+
+Um dos principais aspectos do JavaScript é sua orientação a eventos, ou seja, ele responde a ações do usuário.
+
+Os eventos são categorizados em quatro tipos principais:
+
+Eventos de carregamento (Load) – Relacionados ao carregamento da página ou de elementos como imagens. Exemplos: onLoad (executado quando uma página ou imagem é carregada) e onResize (executado quando a janela do navegador é redimensionada).
+
+Eventos de clique (Click) – Disparados quando o usuário clica em um botão, link, etc.
+
+Eventos de entrada (Input) – Ativados ao inserir ou modificar dados em campos de formulário.
+
+Eventos de mouse (Mouse) – Relacionados ao movimento do cursor, como passar o mouse sobre um elemento.

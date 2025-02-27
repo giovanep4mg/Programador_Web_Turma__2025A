@@ -1,0 +1,46 @@
+###   onLoad
+
+1. Evento onLoad (Carregamento da Página ou Imagem)
+O evento onLoad é acionado quando um elemento (como uma página ou uma imagem) termina de carregar.
+
+    <!DOCTYPE html>
+    <html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Evento onLoad</title>
+        <script src="./load.js"></script> 
+    </head>
+    <body onload="carreguei()" onresize="redimensionei()"> 
+
+        <h1> Evento onLoad </h1>
+        <br>
+        <br>
+        <h2>log de ocorrencias</h2>
+
+        <div id="log">
+
+        </div>
+
+    </body>
+    </html>
+
+*** Toda vez que a página for carregada chama a função, executa ela, que está no arquivo javascript -> load.js
+
+* Veja o arquivo, load.js:
+    
+    // Função que será executada
+    function carreguei(){
+
+        // Pega o elemento "tag", com id "log", e adiciona "innerHTML" , o texto "Carreguei" com um espaço => <br>
+        document.getElementById("log").innerHTML = "Carreguei <br>";
+    }
+
+    // Função que será executada
+    function redimensionei(){
+
+        // Pega o elemento "tag", com id "log", e adiciona "innerHTML" , o texto "Redimensionei" com um espaço => <br>
+        document.getElementById("log").innerHTML = "Redimensionei <br>";
+
+    }
+
