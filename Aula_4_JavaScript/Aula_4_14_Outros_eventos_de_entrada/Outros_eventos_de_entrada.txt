@@ -1,0 +1,115 @@
+##    Outros eventos de entrada
+
+Os eventos da categoria input estão relacionados às interações do usuário com elementos de entrada de dados, como <input>, <textarea> e <select>. Eles permitem capturar ações dentro de formulários.
+
+## Principais Eventos:
+
+    * onBlur: Disparado ao sair de um campo. Exemplo: preencher o login e sair para a senha.
+    * onFocus: Ocorre ao entrar em um campo. Exemplo: clicar na caixa de texto para digitar.
+    * onChange: Acionado quando há uma alteração no valor de um campo. Exemplo: mudar a opção de um <select>.
+    * onSelect: Ativado ao selecionar um texto dentro de um campo.
+    * onSubmit: Usado para submeter um formulário. Normalmente inclui validações antes do envio.
+    * onReset: Limpa os dados do formulário ao ser ativado.
+    * onKeyDown / onKeyUp: Relacionados ao teclado. O primeiro ocorre ao pressionar uma tecla, e o segundo quando ela é solta.
+
+No exemplo, um formulário foi criado para demonstrar esses eventos, registrando as interações do usuário e exibindo mensagens no log.
+
+** onsubmit="return subtmit()"
+-->> Vai verificar se está tudo preenchido se não não irá enviar o formulário.
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="./input.js"></script>
+    </head>
+    <body>
+        <h2>Eventos de Input</h2>
+
+        <form name="formTeste" onsubmit="return subtmit()" onreset="resetei()">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" onblur="saiDoCampo()" onfocus="entreiNoCampo()" onchange="mudei()"
+                onselect="selecionei()" onkeydown="teclaBaixo()" onkeyup="teclaAcima()">
+            <br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
+        
+        <br>
+        <div id="log"></div>
+        <br>
+    </body>
+    </html>
+
+## Veja o arquivo JS:
+
+
+// Executa a função para submeter o formulário
+function submeti() {
+    
+    // Seleciona o elemento HTML, com id "log" e  adiciona esse texto
+    document.getElementById("log").innerHTML += "Submeti <br>";
+
+    // retorna falso
+    return false;
+}
+
+// Executa a Função, que é onReset: Limpa os dados do formulário ao ser ativado.
+function resetei() {
+    
+    // Seleciona o elemento HTML, com id "log" e  adiciona esse texto
+    document.getElementById("log").innerHTML += "Resetei <br>";
+
+}
+
+// Executa a Função, que é onBlur: Disparado ao sair de um campo.
+function saiDoCampo() {
+    
+    // Seleciona o elemento HTML, com id "log" e  adiciona esse texto
+    document.getElementById("log").innerHTML += "Sai do campo <br>";
+
+}
+
+// Executa a Função, que é onChange: Acionado quando há uma alteração no valor de um campo.
+function mudei() {
+    
+    // Seleciona o elemento HTML, com id "log" e  adiciona esse texto
+    document.getElementById("log").innerHTML += "Mudei <br>";
+
+}
+
+// Executa a Função, que é onFocus: Ocorre ao entrar em um campo.
+function entreiNoCampo() {
+    
+    // Seleciona o elemento HTML, com id "log" e  adiciona esse texto
+    document.getElementById("log").innerHTML += "Entrei no campo <br>";
+
+}
+
+// Executa a Função, que é onSelect: Ativado ao selecionar um texto dentro de um campo.
+function selecionei() {
+    
+    // Seleciona o elemento HTML, com id "log" e  adiciona esse texto
+    document.getElementById("log").innerHTML += "Selecionei <br>";
+
+}
+
+// Executa a Função, que é onKeyDown, Relacionados ao teclado. quando  presiona uma tecla
+function teclaBaixo() {
+    
+    // Seleciona o elemento HTML, com id "log" e  adiciona esse texto
+    document.getElementById("log").innerHTML += "Tecla para baixo <br>";
+
+}
+
+// Executa a Função, que é onkeyup, Relacionados ao teclado. quando a tecla é solta
+function teclaAcima() {
+     
+    // Seleciona o elemento HTML, com id "log" e  adiciona esse texto
+    document.getElementById("log").innerHTML += "Tecla para cima <br>";
+
+}
+

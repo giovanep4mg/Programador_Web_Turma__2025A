@@ -1,3 +1,42 @@
 ##   onClick
 
-* No onClick a gente tem dois tipos de evento: o onClick, que é quando a gente faz o click normal do mouse, uma vez só, e onDblClick, quando a gente faz aqueles 2 cliques bem rápidos em cima do elemento, que normalmente vocês fazem quando precisa abrir um arquivo no computador, a gente dá aqueles dois cliques bem rápidos para abrir o arquivo no software determinado.
+* No onClick a gente tem dois tipos de evento: 
+
+** o onClick, que é quando a gente faz o click normal do mouse, uma vez só, e 
+
+** onDblClick, quando a gente faz aqueles 2 cliques bem rápidos em cima do elemento, que normalmente vocês fazem quando precisa abrir um arquivo no computador, a gente dá aqueles dois cliques bem rápidos para abrir o arquivo no software determinado.
+
+Exemplo:
+
+<img src="./imagens/ifrs.gif" alt="Logo da escola Instituto Federal doRio Grande do Sul." id="imagem"
+        onclick="umClique()" ondblclick="doisClique()" width="300">
+
+* Aqui temos uma tag "img", que tem dois eventos de clique:
+
+-->>  Primeiro evento, que ai clicar " uma vez " na foto, será trocada a imagem que é uma logo para uma imagem de fachada.
+
+-->>  Segundo evento, quando clicar " duas vezes " na foto, será trocada a imagem de uma logo, para a imagem de uma fachada.
+
+** Essa troca é feita usando o JavaScript, veja o arquivo " click.js ":
+
+        // Função que será executada quando tiver um clique na imagem.
+        function umClique() {
+
+            // troca a imagem, que está na tag com id "imagem"
+            document.getElementById("imagem").src = "./imagens/fachada.jpg";
+
+            // Adiciona esse texto na página, na tag onde tem o id "log"
+            document.getElementById("log").innerHTML += "Troca para a foto da fachada. <br> ";
+
+        }
+
+        // Função que será executada quando tiver dois clique na imagem.
+        function doisClique() {
+
+            // troca a imagem, que está na tag com id "imagem"
+            document.getElementById("imagem").src = "./imagens/ifrs.gif";
+
+            // Adiciona esse texto na página, na tag onde tem o id "log"
+            document.getElementById("log").innerHTML += "Troca para a logo do ifrs. <br> ";
+
+        }

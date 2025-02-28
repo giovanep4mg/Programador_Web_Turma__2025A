@@ -1,0 +1,16 @@
+## Eventos do mouse 
+
+** onMouseOver :
+-->> Passando o mouse sobre o elemento.
+
+** onMouseOut:
+-->> saindo do elemento.
+
+** onMouseDown:
+-->> Presionando o botão do mouse sobre o elemento.
+
+** onMouseUp:
+-->> soltando o botão do mouse sobre o elemento.
+
+** onMouseMove:
+-->> movimentando o mouse sobre o elemento.
