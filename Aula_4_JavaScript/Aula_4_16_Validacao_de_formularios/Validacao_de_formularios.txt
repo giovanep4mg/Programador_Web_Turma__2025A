@@ -1,1 +1,15 @@
 ##   Validação de formulários
+
+* É muito importante essa parte do java script, em validar formulários.
+
+* É muito importante validar antes de enviar um formulário preenchido .
+
+* Importante avisar o usuário, que  precisa preencher os campos do formulário.
+
+    <form onsubmit="return verificarForm()"> <<--->>> AQUI
+        <label for="nome"> Nome: </label>
+        <input type="text" name="nome" id="nome"> <br>
+        <button type="submit"> Enviar </button>
+    </form>
+
+Usando o "return verificarForm()", para verificar o formulário.
