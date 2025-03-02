@@ -7,19 +7,46 @@
     <title>IMC</title>
     <script src="./imc.js"></script>
 </head>
+<style>
+    main {
+        width: 50%;
+        border: 9px solid black;
+        border-color: #a52a2aa6;
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+
+    form {
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+
+    input {
+        border: 1px solid black;
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+        text-align: center;
+        background-color: beige;
+        margin: 0;
+    }
+</style>
 
 <body>
     <main>
         <h1>IMC</h1>
-
+        <br>
         <form action="">
             <label for="peso">Peso:</label>
             <input type="text" id="peso" name="peso"> <br>
-
+            <br>
             <label for="altura">Altura:</label>
             <input type="text" id="altura" name="altura"> <br>
-
-            <button type="button" onclick="calcularImc()"> Enviar </button>
+            <br>
+            <button type="button" onclick="calcularIMC()"> Enviar </button>
+            <br>
         </form>
     </main>
 </body>

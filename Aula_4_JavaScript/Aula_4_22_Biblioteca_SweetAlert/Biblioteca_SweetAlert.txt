@@ -1,0 +1,5 @@
+##   Biblioteca SweetAlert
+
+* O primeiro exemplo que eu trouxe é do Sweet Alert, que é uma possibilidade de trazer aquela mensagem de alerta que a gente viu no JavaScript, de uma forma mais bonita, mais apresentável.
+
+* Normalmente temos que abaixar os arquivos da biblioteca para podermos usar.
