@@ -1,0 +1,117 @@
+# A importância do projeto web
+
+**Resumo:**
+
+O projeto de sistemas Web é fundamental para o desenvolvimento de WebApps de alta qualidade. A Engenharia da Web (WebE) utiliza muitos conceitos da engenharia de software, mas com adaptações para o contexto específico da Web. Ela enfatiza atividades técnicas e de gestão semelhantes às de engenharia de software, com a diferença de que as abordagens e práticas podem variar.
+
+A importância de projetar um sistema Web está na criação de um modelo sólido, funcional e agradável ao usuário, conforme destacado por Pressman. O processo de design envolve a diversificação e a convergência, adaptando-se conforme a complexidade do sistema. O projeto deve considerar o escopo do sistema, as necessidades do cliente e as estratégias de negócios que o sistema atenderá.
+
+Embora o projeto de software evolua continuamente, a aplicação de metodologias, critérios de qualidade e notações adequadas é essencial. O principal objetivo é criar um sistema que atenda às expectativas do cliente, seja confiável, adaptável e fácil de usar. O processo de projeto também permite que as necessidades não identificadas durante a análise de requisitos sejam atendidas de forma mais eficiente, com menor custo e desgaste dos profissionais envolvidos.
+
+# Princípios Gerais:
+
+**Resumo:**
+
+Os princípios gerais de projeto de software, segundo Hooker (1996) e Pressman, destacam que:
+
+o sistema deve sempre agregar valor ao cliente e usuário. 
+
+O projeto deve ser simples, mas sem comprometer a qualidade. 
+
+A visão arquitetural deve ser seguida rigorosamente, e os modelos criados devem ser claros e fáceis de entender, pois serão usados nas fases de implementação e manutenção. 
+
+Sistemas devem ser projetados para acomodar mudanças ao longo do tempo, garantindo longevidade.
+
+Além disso, a reutilização de componentes e padrões de projeto deve ser planejada para melhorar a qualidade e economizar tempo e esforço. O bom projeto proporciona viabilidade econômica, redução de riscos e erros, e aumento da produtividade.
+
+# Projeto de sistem Web
+**Resumo:**
+
+Com a popularização da Web, surgiu a necessidade de projetar sistemas Web que acompanhassem a complexidade crescente dessa plataforma. O projeto de sistemas Web é fundamental para criar soluções que atendam às necessidades dos usuários e se adaptem às rápidas mudanças tecnológicas. Pressman (2006) destaca que o projeto de software é um processo essencial no desenvolvimento de sistemas, independente do ciclo de vida ou paradigma adotado.
+
+A fase de projeto busca definir e refinar soluções para os problemas, com base nos requisitos e nas necessidades do negócio. Esse processo envolve decisões sobre a arquitetura do software, a decomposição de módulos, e o design detalhado dos elementos da arquitetura, incluindo interfaces, procedimentos e estruturas de dados.
+
+O projeto de software é um processo criativo que transforma a especificação de um problema na especificação de uma solução.
+
+A solução é considerada adequada quando atende a todos os requisitos definidos. 
+ 
+O projeto está na interseção entre o mundo da tecnologia e as necessidades humanas, buscando um equilíbrio entre ambos.
+
+
+# Qualidade do Projeto de Sistemas Web
+
+A qualidade em projetos de sistemas Web deve seguir normas internacionais, como as definidas pela ISO/IEC, para garantir eficiência, confiabilidade e usabilidade. Além das funcionalidades do sistema, o projetista deve considerar outros atributos de qualidade para evitar retrabalho.
+
+Seis Características de Qualidade da ISO/IEC (2001):
+
+Funcionalidade – Conjunto de funções que atendem às necessidades do usuário (ex.: adequação, segurança e conformidade).
+
+Confiabilidade – Capacidade de manter desempenho estável ao longo do tempo.
+
+Usabilidade – Facilidade de uso do sistema.
+
+Eficiência – Relação entre desempenho e recursos utilizados.
+
+Manutenibilidade – Facilidade para modificar e corrigir o software.
+
+Portabilidade – Capacidade do software de operar em diferentes ambientes.
+
+**  Diretrizes de Qualidade segundo Pressman (2011):
+
+O projeto deve ter uma arquitetura reconhecida, ser modular e dividido logicamente.
+
+Deve conter representações de dados, interfaces e componentes bem definidos.
+
+Os componentes devem ser independentes e de baixo acoplamento.
+
+A interface deve ser simples e bem encapsulada.
+
+O projeto deve ser criado com uma metodologia estruturada e notação clara.
+
+** PMBOK (2004) e as Fases de um Projeto:
+
+Temporário – Possui início e fim definidos.
+
+Elaboração progressiva – Desenvolvimento ocorre por etapas e incrementos.
+
+Produto ou serviço único – Cada projeto tem características exclusivas.
+
+A qualidade do software não significa perfeição, mas sim a adoção de boas práticas para garantir um sistema funcional e bem estruturado.
+
+#  6.7 Projeto de sistemas e padrões de projeto (design patterns)
+
+O texto aborda os **padrões de projeto (design patterns)** no desenvolvimento de sistemas. Ele explica que esses padrões são soluções reutilizáveis para problemas recorrentes no design de software, evitando a necessidade de criar soluções do zero sempre que um problema semelhante surgir.  
+
+### **Principais pontos abordados:**  
+- **Reutilização de projetos:** O desenvolvimento de sistemas não precisa começar do zero sempre, pois é possível aproveitar aspectos desejáveis de projetos já existentes. 
+
+- **Definição de um pattern:** Um padrão é uma solução testada e aprovada para problemas comuns que surgem em diferentes projetos.  
+
+- **Origem do conceito:** O arquiteto **Christopher Alexander** introduziu a ideia de padrões em 1970, inicialmente aplicada na arquitetura e posteriormente na informática.  
+
+- **Objetivo dos padrões de projeto:** Registrar e documentar experiências eficazes em design de software para facilitar sua reutilização.  
+
+- **Elementos de um padrão (segundo Buschmann et al., 1996):**  
+
+  - **Nome:** Identificação do padrão.  
+  - **Contexto:** Situação que gera um problema.  
+  - **Problema:** Explicação do problema recorrente.  
+  - **Solução:** Descrição da solução e seus componentes.  
+  - **Consequências:** Impactos e compromissos ao aplicar o padrão.
+
+- **Importância para desenvolvedores:** Profissionais que conhecem os padrões podem aplicá-los diretamente, economizando tempo e esforço ao resolver problemas já conhecidos.  
+
+No geral, o texto destaca que os padrões de projeto são **ferramentas valiosas para projetistas e desenvolvedores**, pois ajudam a solucionar problemas recorrentes com eficiência, permitindo que o tempo seja dedicado a novas demandas.
+
+#  6.9 Resumo
+
+Vamos fazer uma breve revisão do que aprendemos até aqui?
+
+Projeto de sistemas Web é uma fase muito importante para o desenvolvimento de software, pois os profissionais e as demais pessoas que utilizarão ou manipularão o sistema para qualquer finalidade necessitarão do projeto de sistema.
+
+A dinamicidade que nos propõe a Web se reflete na mutação rápida das necessidades atuais e, por isso, a projeção do projeto de sistema dará suporte e respaldo aos profissionais envolvidos no desenvolvimento, teste e manutenção do sistema.
+
+Sem dúvida, conhecer e entender as características, importância e peculiaridades acerca do projeto do sistema permitirá que você domine esse processo dinâmico que reflete as necessidades atuais dos usuários e clientes, vez que podemos contar com diversas tecnologias para buscar de maneira mais rápida e eficiente tal elaboração e construção.
+
+Este material foi baseado em:
+RIBEIRO, Maria Ivanilse Calderon; COSTA, Juliana Braz da; BRAVIM, Jhordano Malacarne. Projeto de Sistemas Web. Universidade Federal de Mato Grosso/Rede e-Tec Brasil, Cuiabá: 2015.

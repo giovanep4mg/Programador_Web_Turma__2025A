@@ -1,0 +1,87 @@
+**Levantamento de Requisitos para Projeto de Sistemas Web** 
+
+Explica a importância dessa fase no desenvolvimento de sistemas. O levantamento de requisitos busca entender as necessidades do cliente e garantir que o projeto seja desenvolvido para solucionar seus problemas. Para isso, o profissional precisa ter um bom domínio do negócio e do problema que será resolvido, o que é chamado de "domínio do problema" ou "domínio da aplicação".
+
+Durante essa etapa, o profissional coleta informações através de entrevistas, análise de sistemas existentes e outros métodos para entender as necessidades do usuário. O resultado dessa pesquisa é documentado em um **documento de requisitos**, que descreve as funcionalidades e características de qualidade do sistema.
+
+Os requisitos são divididos em **funcionais** (o que o sistema deve fazer) e **não funcionais** (como o sistema deve se comportar, como confiabilidade, desempenho e portabilidade). O documento de requisitos serve para orientar todos os envolvidos no projeto, garantindo que todos tenham uma compreensão clara do problema e da solução a ser implementada.
+
+Essa fase é crucial, pois um levantamento de requisitos bem-feito é fundamental para o sucesso do sistema, evitando retrabalho e garantindo que o produto final atenda às expectativas do cliente.
+
+# Importância dos requisitos para o projeto de sistemas Web
+
+**Resumo da aula sobre Levantamento de Requisitos para Projeto de Sistemas Web:**
+
+1. **Importância do Levantamento de Requisitos:**
+   - O levantamento de requisitos é essencial para entender as necessidades do cliente e projetar um sistema que atenda a essas necessidades. 
+   - Durante essa atividade, o projetista busca compreender o sistema que será desenvolvido, com base nas entrevistas realizadas com o cliente.
+
+2. **Engenharia de Requisitos (Pressman, 2011):**
+   - A engenharia de requisitos é uma fase do processo de engenharia de software que envolve tarefas e técnicas para entender os requisitos do sistema.
+   - Ela começa na atividade de comunicação e continua na modelagem, adaptando-se às necessidades do processo, do produto e das pessoas envolvidas.
+
+3. **Formulação de Sistemas Web:**
+   - A criação de WebApps segue uma sequência de etapas:
+     - **Identificação das necessidades do negócio**.
+     - **Descrição dos objetivos do WebApp**.
+     - **Definição das principais características e funções**.
+     - **Coleta de requisitos que leva à análise do modelo**.
+   - Essa formulação ajuda a estabelecer metas e objetivos comuns entre os interessados e a equipe de desenvolvimento.
+
+4. **Domínio da Necessidade do Cliente:**
+   - O projetista deve entender as necessidades do cliente e o perfil do usuário para desenvolver uma WebApp robusta, que atenda efetivamente aos requisitos identificados.
+   - Conhecer a regra de negócio é crucial para o sucesso do projeto.
+
+5. **Influência dos Atributos na Escolha do Modelo de Processo:**
+   - Os atributos do sistema, como **imediatismo** e **evolução contínua**, influenciam a escolha do modelo de processo.
+   - Para WebApps com necessidades imediatas, um modelo ágil pode ser utilizado. Para projetos de maior escala, como grandes aplicações de e-commerce, um modelo incremental pode ser mais adequado.
+
+**Conclusão:** 
+O levantamento de requisitos é uma etapa fundamental para garantir que o sistema desenvolvido atenda às expectativas do cliente, com base em uma compreensão detalhada das suas necessidades e características. A escolha do modelo de processo de desenvolvimento deve ser alinhada aos atributos do sistema e à evolução do projeto.
+
+# As especificações e análise de requisitos para projeto de sistemas Web
+
+**Resumo sobre Análise de Requisitos para Projetos de Sistemas:**
+
+1. **Objetivo da Análise de Requisitos:**
+   - A análise de requisitos é a primeira etapa no modelo de processo de desenvolvimento e se foca no **“o que deve ser feito”**, ou seja, na definição dos requisitos do sistema, sem abordar como será implementado.
+   - Essa fase funciona como um **contrato** entre o desenvolvedor e o cliente, e é o processo de aquisição, refinamento e verificação das necessidades do sistema.
+   - O principal objetivo é **obter uma especificação correta e completa** dos requisitos, garantindo que o sistema atenda às necessidades do cliente.
+
+2. **Desafios na Análise de Requisitos:**
+   - Compreender os requisitos de um problema é uma das tarefas mais difíceis para um engenheiro de software.
+   - A análise de requisitos deve ser **adaptada** às necessidades específicas do processo, do projeto, do produto e da equipe.
+
+3. **Técnicas para Levantamento de Requisitos:**
+   - O levantamento de requisitos pode ser feito através de várias técnicas que ajudam a entender as necessidades do cliente e a regra de negócio do sistema. As principais técnicas são:
+
+   - **Entrevista:**
+     - Usada quando poucas pessoas conhecem as informações necessárias.
+     - Deve ser **planejada antecipadamente**, com perguntas objetivas para evitar constrangimentos.
+     - Importante garantir um local e horário adequados para a entrevista.
+   
+   - **Questionário:**
+     - Utilizado quando mais pessoas conhecem a regra do negócio e as necessidades do sistema.
+     - Deve ser bem elaborado, focado nos interesses do projetista e na compreensão da regra de negócio de forma objetiva.
+     - Permite consolidar as informações de várias pessoas.
+
+   - **Observação Direta:**
+     - Complementa os dados coletados na entrevista e no questionário.
+     - Permite que o projetista observe diretamente o trabalho realizado e as necessidades que surgem durante o desenvolvimento do sistema.
+
+   - **Brainstorming:**
+     - Técnica para obter rapidamente informações sobre as necessidades do sistema e possíveis soluções.
+     - Deve envolver diversos profissionais da empresa, e é conduzido por um mediador para gerar um maior número de ideias e necessidades para o projeto.
+
+**Conclusão:**
+A análise de requisitos é uma fase fundamental para garantir que o sistema será desenvolvido de acordo com as necessidades do cliente. As técnicas de levantamento de requisitos (entrevista, questionário, observação direta e brainstorming) ajudam a sistematizar esse processo e coletar as informações necessárias para uma especificação completa e precisa.
+
+# Resumo
+
+A atividade de levantamento de requisitos é parte fundamental para o início do projeto de sistemas, vez que o projetista entenderá melhor as regras do negócio para o desenvolvimento do sistema. 
+
+Assim, nesta aula apresentamos os requisitos funcionais e os não funcionais que você precisa conhecer e diferenciar por serem importantes para o projetista de sistema. 
+
+Além disso, abordamos a especificação e a análise de requisitos do projeto de sistemas Web, pois assim você pôde compreender e abstrair o mundo real buscando projetá-lo para o mundo computacional. 
+
+Enfim, estudou importantes aspectos e práticas voltadas para a construção e produção do projeto de sistema Web que lhe permitirá o domínio do processo de construção do projeto de sistemas Web.

@@ -1,0 +1,46 @@
+### jQuery
+
+* A jQuery é a biblioteca mais famosa atualmente no uso da linguagem JavaScript, ela é responsável por toda interatividade que existem nas páginas e ela é uma biblioteca bem extensa, com muitas funcionalidades e com algumas classificações.
+
+* Aqui está o link da página do jQuery:
+
+https://jquery.com/
+
+* Lá você verá como usar, vários exemplos de efeitos, entre outras coisas!
+
+* Tem também para dispositivos movéis.
+
+### Math.js
+
+* Site dela:
+-->>>   https://mathjs.org/
+
+* Bom para trabalhar com matemática, com vários cálculos
+
+### Format.js
+
+* Ela mexe muito com Datas, horários, atualizando as datas para o pais, região que você deseja.
+
+* Site da biblioteca, tem vários exemplos, como usar e muitas outras coisas.
+
+---->>>>   https://formatjs.github.io/
+
+### Stickerjs
+
+* Site com vários exemplos, e como usar:
+
+--->>>>     http://stickerjs.cmiscm.com/
+
+* E como um adesivo, para deixar diferente sua página com esse efeito.
+
+### Dropzone
+
+* Cria o efeito de enviar arquivos para a página, só arrastando os arquivos.
+
+* Sem precisar ter que selecionar no computador o arquivo que você deseja adicionar!
+
+* Site da biblioteca, com vários exemplos e como usar:
+
+https://www.dropzone.dev/
+
+* Existe várias outras biblioteca, basta pesquisar o que você deseja realizar nna sua página, que talvez allguém tenha feito algo parecido e você só copia.
