@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca SweetAlert</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./sweetalert-master/example/example.css">
+    <!-- JQuery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!---->
+    <script src="./sweetalert-master/dist/sweetalert-dev.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body>
+    <main>
+        <h1>Alerta Sweet</h1>
+
+        <div class="showcase normal">
+            <h4>Alerta Normal</h4>
+            <button>Mostrar mensagem de erro.</button>
+            <div class="vs-icon"></div>
+        </div>
+
+        <div class="showcase sweet">
+            <h4>Alerta Sweet</h4>
+            <button>Mostrar mensagem de erro.</button>
+
+        </div>
+
+        <script>
+            document.querySelector('.showcase.normal button').onclick =
+                function () {
+                    alert("Ops....Exemplo de mensagem de erro!");
+                };
+
+            document.querySelector('.showcase.sweet button').onclick =
+                function () {
+                    Swal.fire("Ops.", "...Exemplo de mensagem de erro!", "error");
+                };
+        </script>
+
+    </main>
+</body>
+
+</html>

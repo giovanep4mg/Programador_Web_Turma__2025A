@@ -1,5 +1,28 @@
 ##   Biblioteca SweetAlert
 
+* Lembrando que biblioteca, são códigos já criados para facilitar nossa vida, já vem com algumas funções.
+
+* É MELHOR BAIXAR NA SUA MAQUINA/COMPUTADOR, E adicionar no seu projeto.
+
+* Criando o index.html, uma pasta para CSS, uma pasta para JavaScript.( Não é obrigatório é só uma dica!)
+
+* Formas de chamar, adicionar os arquivos da biblioteca com a página:
+
+        ==>>>    < script src=" ./arquivoBiblioteca.js " >< /script >
+
+        ==>>>    < link rel="stylesheet" type="text/css" href=" ./arquivoBiblioteca.css " >
+
 * O primeiro exemplo que eu trouxe é do Sweet Alert, que é uma possibilidade de trazer aquela mensagem de alerta que a gente viu no JavaScript, de uma forma mais bonita, mais apresentável.
 
 * Normalmente temos que abaixar os arquivos da biblioteca para podermos usar.
+
+https://sweetalert2.github.io/
+
+* Nessa página da biblioteca, tem duas opções de usar:
+
+## Baixar:
+    -->>  $ npm install sweetalert2
+
+## Usar pegando direto do site:
+    --->>  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
