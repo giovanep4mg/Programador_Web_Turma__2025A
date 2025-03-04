@@ -1,1 +1,37 @@
 # 6.18 Importância da modelagem para projeto de sistemas Web
+
+Aqui está um resumo dos pontos mais importantes da aula:  
+
+A modelagem de requisitos é essencial para o desenvolvimento de sistemas Web, pois permite representar os dados e os processos que os transformam como entidades distintas. 
+
+Durante a análise de requisitos, há três etapas principais: 
+
+**formulação, coleta de requisitos e modelagem de análise**
+ 
+A formulação identifica os objetivos da WebApp e define as categorias de usuários.  
+
+A modelagem de sistemas, segundo Motamarri (1992), é fundamental para a engenharia de sistemas e envolve a definição de processos, representação do comportamento, identificação de entradas e saídas e entendimento das ligações entre elementos do sistema. 
+
+Já a análise de requisitos visa compreender as necessidades do cliente, avaliar a viabilidade, especificar a solução e validar os requisitos ao longo do desenvolvimento.  
+
+Pressman (2011) destaca que a modelagem de análise pode ser feita de diferentes formas, dependendo do projeto, e apresenta quatro tipos principais de modelos de requisitos: 
+
+1. **Modelos baseados em cenários** 
+– Representam a interação do usuário com o sistema (exemplo: casos de uso). 
+
+2. **Modelos de classes** 
+– Definem os objetos manipulados pelo sistema, suas operações e relacionamentos.  
+
+3. **Modelos comportamentais** 
+– Mostram como eventos externos alteram o estado do sistema.
+
+4. **Modelos de fluxo** 
+– Representam a transformação dos dados dentro do sistema.  
+
+Por fim, existem duas abordagens principais para a modelagem de requisitos: 
+
+- **Análise estruturada**, que separa dados e processos como entidades distintas. 
+
+- **Análise orientada a objetos**, que se concentra na definição de classes e suas interações para atender às necessidades do sistema.
+
+    

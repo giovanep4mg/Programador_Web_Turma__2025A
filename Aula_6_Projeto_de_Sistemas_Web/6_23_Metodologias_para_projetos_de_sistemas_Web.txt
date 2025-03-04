@@ -1,0 +1,76 @@
+# 6.23 Metodologias para projetos de sistemas Web
+
+**Resumo da Aula: Metodologias para Projetos de Sistemas Web**
+
+Nesta aula, discutiu-se as metodologias e os métodos usados na construção de sistemas Web. 
+Um **método** envolve os passos progressivos para construir um projeto, baseado nos requisitos levantados. 
+
+A **metodologia** é o caminho a ser seguido, e os **métodos** são as técnicas aplicadas para gerar conhecimento e produzir soluções.
+
+O **panorama de métodos da Web** inclui um conjunto de tarefas técnicas que ajudam o engenheiro Web a construir uma WebApp de alta qualidade. Os métodos são categorizados da seguinte forma:
+
+1. **Métodos de Comunicação**: 
+Facilitam a comunicação entre os engenheiros Web e os interessados (usuários finais, clientes, especialistas). 
+São importantes durante a coleta de requisitos e a avaliação de incrementos da WebApp.
+   
+2. **Métodos de Análise de Requisitos**: 
+Ajudam a entender o conteúdo e a função da WebApp, assim como as interações exigidas pelos usuários durante a navegação.
+
+3. **Métodos de Projeto**: 
+Envolvem técnicas para o design do conteúdo, arquitetura da aplicação, interface e estrutura de navegação da WebApp.
+
+4. **Métodos de Teste**: 
+Incluem revisões técnicas e uma variedade de testes (componentes, arquitetura, navegação, usabilidade, segurança, configuração).
+
+Embora esses métodos compartilhem conceitos com a engenharia de software, eles precisam ser adaptados para as características das WebApps.
+
+A aula destacou a importância de seguir passos definidos durante o desenvolvimento de um sistema Web para garantir qualidade, cumprir prazos e atender às necessidades do cliente.
+
+ **Resumo da Aula: Modelo de Análise de Projeto de Sistemas Web**
+
+Um modelo de análise de WebApp é baseado nas informações dos **casos de uso** desenvolvidos para a aplicação. As descrições desses casos de uso são analisadas para identificar as **classes de análise** e os **atributos** e **operações** associados a cada classe. O conteúdo a ser apresentado pela WebApp e as funções necessárias são extraídas desses casos de uso.
+
+O modelo de análise de projeto inclui duas principais abordagens:
+
+1. **Análise Funcional**: Define as operações aplicadas ao conteúdo da WebApp e descreve outras funções de processamento necessárias para o usuário final, mas independentes do conteúdo.
+   
+2. **Análise de Configuração**: Descreve o ambiente e a infraestrutura nos quais a WebApp será executada.
+
+A informação coletada durante essas análises deve ser revisada, ajustada quando necessário e organizada em um modelo a ser passado para os projetistas. Este modelo contém **elementos estruturais e dinâmicos**, que ajudam a organizar o projeto e guiar o desenvolvimento.
+
+O sucesso de uma WebApp está em sua capacidade de permitir que os clientes satisfaçam suas necessidades de forma rápida e eficiente. A tecnologia Web está em constante evolução, com uma vasta gama de ferramentas e linguagens (HTML, UML, Java, PHP, etc.) que ajudam a atender as necessidades da sociedade moderna. Essas tecnologias incluem desde linguagens de programação e desenvolvimento até ferramentas de segurança, análise de sites e auditorias.
+
+**Resumo da Aula: Tipos de Modelos para a Modelagem de Sistemas Web**
+
+1. **Modelo de Conteúdo**: Foca nos requisitos de conteúdo da WebApp. Ele inclui os elementos estruturais, como texto, imagens e áudio, e as classes de análise, que são entidades visíveis ao usuário. Essas classes contêm atributos, operações e colaborações necessárias para a interação com outras classes. O modelo de conteúdo é derivado dos casos de uso da WebApp.
+
+2. **Modelo de Interação**: 
+Descreve o "diálogo" entre o usuário e a aplicação. 
+Pode ser composto por elementos como: casos de uso, diagramas de sequência, diagramas de estados ou protótipos da interface do usuário. Esse modelo é fundamental para representar a interação entre o usuário final e a funcionalidade da WebApp.
+
+3. **Modelo Funcional**: 
+Lida com dois níveis de processamento: 
+   - **Funcionalidade observável pelo usuário**: Funções visíveis para o usuário final, como um cálculo de economia em um site financeiro. 
+   - **Operações nas classes de análise**: Descrevem o processamento em um nível mais baixo, manipulando atributos e colaborando com outras classes para realizar o comportamento necessário. 
+   - **Exemplo de fluxograma**: Abaixo está a descrição do fluxograma que ilustra o processo de cálculo de custo total:
+
+     **Fluxograma de Execução de Cálculo**:
+     O fluxograma começa com um retângulo com o texto "Iniciar custoTotal". Há uma seta saindo deste retângulo para um losango que indica duas possibilidades: 
+     - Se **restam componentes no LDeM**, o sistema segue para um conjunto de ações: Obter preço e quantidade, calcular `linhaDeCusto = preço X quantidade` e adicionar `linhaDeCusto` ao `custoTotal`. Esse processo se repete até que não restem mais componentes.
+     - Quando **não restam componentes no LDeM**, as seguintes ações ocorrem: invocar o cálculo de `custoDeRemessa`, retornar `custoDeRemessa`, invocar o cálculo de `desconto`, e retornar `desconto`. 
+     - Se o **desconto for maior que 0**, o sistema executa `custoTotal = custoTotal - desconto`, depois calcula `impostoTotal = custoTotal X taxaDeImposto` e o `preçoTotal = custoTotal + impostoTotal + custoDeRemessa`. Se o desconto for igual a 0, o sistema executa apenas as duas últimas operações.
+
+4. **Modelo de Configuração**: 
+Trata da infraestrutura necessária para a execução da WebApp. 
+Ele abrange tanto o lado do servidor (hardware, ambiente do sistema operacional, e interoperabilidade com outras aplicações) quanto o lado do cliente (navegadores e software necessário para acessar a WebApp). Testes rigorosos devem ser feitos para garantir a compatibilidade com diferentes configurações de navegador.
+
+Esses modelos são fundamentais para o desenvolvimento e sucesso de uma WebApp, garantindo que todos os aspectos, desde o conteúdo até a configuração de hardware e software, sejam bem planejados e implementados.
+
+# Resumo
+
+Aqui você finaliza os estudos do quarto módulo que versou sobre as metodologias para construção de projetos Web, os modelos de análise de sistemas Web e os tipos de modelos para a modelagem de sistemas Web.
+
+É importante que estude outras referências e pratique as atividades propostas ao final dessa aula, para que possa apreender os temas aqui abordados.
+
+Estamos certos de que, ao final desse módulo, você será capaz de praticar e discutir o conteúdo tratado até essa fase de seus estudos.
+

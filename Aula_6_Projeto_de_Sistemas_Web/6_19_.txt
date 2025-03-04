@@ -1,0 +1,16 @@
+### Resumo da Aula 6.19 – Engenharia de Requisitos para Projetos de Sistemas Web  
+
+A **engenharia de requisitos** é essencial para definir o que o cliente deseja e garantir uma base sólida para o desenvolvimento do sistema. 
+
+Essa engenharia ocorre em paralelo com outras atividades do projeto e deve ser adaptada às necessidades específicas do processo, do projeto e da equipe envolvida.  
+
+Segundo **Pressman (2011)**, a ER começa na fase de comunicação e continua durante a modelagem. Embora seja importante analisar o problema antes de iniciar o projeto, não é necessário realizar uma análise completa antes de cada etapa; basta focar nos requisitos que afetam a parte específica da WebApp que está sendo desenvolvida.  
+
+O nível de ênfase na modelagem de requisitos depende de diversos fatores, como: 
+
+    - **Tamanho e complexidade** do sistema Web.  
+    - **Número de interessados**, pois podem existir requisitos conflitantes.  
+    - **Tamanho da equipe de desenvolvimento** e sua experiência prévia trabalhando em conjunto.  
+    - **Impacto da WebApp no sucesso da organização**, ou seja, quanto mais crítica for, mais rigorosa deve ser a análise.  
+
+Portanto, estudar e aplicar a engenharia de requisitos na modelagem de sistemas Web é essencial, pois há diferentes critérios e abordagens que devem ser considerados para garantir um projeto bem-sucedido.

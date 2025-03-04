@@ -1,0 +1,106 @@
+# 6.28 Introdução
+Nesse módulo trataremos da notação da linguagem de modelagem unificada. 
+
+Você aprenderá sobre os diagramas da UML, conhecerá as partes que compõem a UML e os itens de interação, ou seja, construirá um sólido conhecimento acerca da linguagem. Finalizando o estudo do conteúdo e a prática das atividades propostas desse material, você estará apto a realizar atividade técnicas que envolvam o projeto de sistemas Web. 
+
+Mas, o que é a UML? A UML pode ser utilizada nas diferentes fases no desenvolvimento de sistemas de software, como na análise de requisitos, análise, design (projeto), programação e testes. É uma linguagem padrão para a estruturação de projetos de software. Sua abrangência vai desde a modelagem de sistemas de informação corporativos a serem distribuídos a aplicações baseadas em Web, até sistemas complexos embutidos de tempo real.
+
+A primeira versão da linguagem de modelagem unificada foi lançada em 1996. Em 1997, foi adotada pela a OMG (Object Management Group – Grupo de Gerenciamento de Objetos) como linguagem padrão de modelagem.
+
+É importante que você compreenda que a linguagem permite a modelagem do sistema sob diferentes perspectivas. Cada uma destas perspectivas é uma abstração apresentada por diagramas criados a partir dos recursos oferecidos pela linguagem de modelagem.
+
+**Resumo da Aula sobre UML**
+
+A UML (Unified Modeling Language) é uma linguagem visual usada para modelar sistemas computacionais, adotada internacionalmente pela indústria de engenharia de software. Ela utiliza diagramas para representar o sistema, permitindo identificar e definir itens e seus relacionamentos. A UML não é uma metodologia nem uma linguagem de programação, mas sim uma linguagem padrão para modelagem de software, focada no paradigma de orientação a objetos.
+
+**Itens Estruturais da UML:**
+1. **Classes**: 
+Representam um conjunto de objetos com atributos e comportamentos comuns. Por exemplo, a classe "Funcionário" pode ter atributos como `codFuncionario`, `nome`, `dataNasc`, e o método `vender()`.
+   
+2. **Objetos**: 
+São instâncias de uma classe. Um objeto tem um estado específico e identidade única dentro do contexto de sua classe. Exemplo: o objeto "f.Funcionario" pode ter atributos como `codFuncionario`, `nome`, `dataNasc` com valores vazios.
+
+**Itens Comportamentais da UML:**
+1. **Interações**: 
+Representam conjuntos de mensagens trocadas entre objetos para mostrar como eles interagem dentro de um contexto específico. As mensagens são representadas por setas.
+   
+2. **Máquina de Estados**: 
+Modelo que descreve a sequência de estados que um objeto pode assumir ao longo de sua vida, em resposta a eventos.
+
+**Relacionamentos em UML:**
+1. **Dependência**: 
+Relacionamento onde um item depende de outro. A alteração no item independente pode afetar o item dependente. Representado por uma seta aberta com linha tracejada.
+   
+2. **Generalização**: 
+Relacionamento hierárquico entre classes. A classe mais geral é a superclasse e a mais específica é a subclasse, representada por uma linha contínua com uma seta apontando para a superclasse.
+
+3. **Associação**: 
+Relacionamento estrutural entre classes. A associação conecta as classes e permite que objetos de uma classe interajam com objetos de outra classe. Exemplo: um "Funcionário" pode estar associado a um "Departamento".
+
+A UML oferece uma maneira clara e estruturada de modelar sistemas complexos, sendo essencial para o desenvolvimento de software orientado a objetos.
+
+**Resumo sobre as Partes que Compõem a UML**
+
+A UML (Unified Modeling Language) é uma linguagem visual usada para expressar e comunicar ideias, convertendo o mundo real em representações computacionais. Ela não é uma metodologia, mas uma ferramenta para descrever sistemas de forma abstrata, permitindo identificar componentes e ações essenciais.
+
+A UML é composta por várias partes:
+
+1. **Atores**: 
+Representam elementos que interagem com o sistema. Podem ser:
+   - **Primário**: O usuário direto do sistema.
+   - **Secundário**: Administradores, beneficiários ou outros sistemas que se comunicam com o sistema.
+
+2. **Visões**: 
+Diferentes perspectivas do sistema, representadas por diagramas que mostram os diversos aspectos do sistema.
+
+3. **Modelos de Elementos**: 
+Conceitos fundamentais usados nos diagramas, como classes, associações, dependências e heranças, todos provenientes da orientação a objetos.
+
+4. **Mecanismos Gerais**: 
+Comentários e informações adicionais que fornecem semântica sobre os elementos dos modelos.
+
+5. **Diagramas**: 
+Gráficos que representam os componentes e comportamentos do sistema. A UML possui nove tipos de diagramas usados em combinação para fornecer todas as visões do sistema.
+
+Essas partes permitem que o projetista descreva um sistema de forma clara e estruturada.
+
+A UML (Unified Modeling Language) oferece uma série de diagramas para representar diferentes aspectos de um sistema. Esses diagramas são classificados em **diagramas estruturais** e **diagramas comportamentais**. Abaixo, explico resumidamente cada tipo de diagrama, com base nas imagens descritas.
+
+### Diagramas Estruturais
+
+1. **Diagrama de Classes**: 
+Representa a estrutura estática de um sistema, com classes e seus relacionamentos. As classes representam as "coisas" gerenciadas pela aplicação. Por exemplo, um cliente pode ter vários contratos de aluguel com diferentes veículos.
+
+2. **Diagrama de Objetos**: 
+Mostra as instâncias das classes em um ponto específico no tempo, representando os objetos e seus valores atuais, como um cliente com contratos de aluguel instanciados de classes.
+
+3. **Diagrama de Componentes**: 
+Exibe como os componentes do sistema interagem e são organizados. Mostra a relação entre módulos do sistema, como a aplicação, gerenciador de comunicação e banco de dados.
+
+### Diagramas Comportamentais
+
+1. **Diagrama de Casos de Uso**: 
+Representa as interações entre os atores e o sistema. É uma visão global do sistema, que mostra os casos de uso e suas relações, como as funções que um administrador pode realizar em um banco.
+
+2. **Diagrama de Sequência**: 
+Modela a interação entre objetos ao longo do tempo, mostrando a troca de mensagens em ordem cronológica. Por exemplo, como um computador interage com um servidor de impressão e uma impressora.
+
+3. **Diagrama de Atividades**: 
+Detalha o fluxo de atividades em um sistema, modelando a sequência de ações, como o processo de imprimir um arquivo, incluindo decisões, como espaço em disco disponível ou não.
+
+4. **Diagrama de Estados**: 
+Representa as transições de estados de um objeto reativo, como um elevador que muda de estado de "no térreo" para "subindo", "parado" e "descendo".
+
+Esses diagramas permitem modelar tanto os aspectos estáticos quanto dinâmicos do sistema, ajudando na visualização de sua estrutura e comportamento.
+
+# 6.32 Resumo
+
+A linguagem de modelagem unificada permite a profissionais de áreas diferentes trabalharem no mesmo projeto e desenvolvimento do sistema, proporcionando um modo de comunicação por meio de simbologia que todos conhecem e entendem. 
+
+Os diagramas proporcionam a visualização do sistema em diversas perspectivas e permite a especificação estrutural ou comportamental do sistema.
+
+De certa forma, é uma guia para a construção do sistema e facilita a produção da documentação das decisões tomadas durante a execução do desenvolvimento do software. No mundo computacional, as necessidades são dinâmicas e mutantes, daí a facilidade que uma linguagem conhecida e interpretada de maneira uniforme é essencial para dar maior rapidez e suporte à construção e desenvolvimento para o projeto de sistema.
+
+Com certeza você irá utilizar e praticar bastante, em sua atividade profissional, os conceitos e os diferentes diagramas apresentados nessa última aula da disciplina
+
+É importante estudar este assunto, reler esta aula para não deixar nenhuma dúvida guardada para depois. Sempre que sentir necessidade, volte e retome a leitura de qualquer das aulas desse material e procure outras referências sobre o assunto, pois um ótimo profissional sempre pesquisa e atualiza os conhecimentos adquiridos.

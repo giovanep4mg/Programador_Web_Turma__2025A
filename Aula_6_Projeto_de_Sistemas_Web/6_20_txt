@@ -1,0 +1,20 @@
+### Resumo da Aula 6.20 – Validação dos Requisitos para Projetos de Sistemas Web  
+
+A **validação de requisitos** é uma etapa essencial da engenharia de requisitos, garantindo que todos os requisitos do software estejam bem definidos, sem ambiguidades, erros ou omissões. 
+    
+Essa validação assegura que o produto final atenda às normas estabelecidas para o projeto e ao que foi solicitado pelos clientes e usuários (**Pressman, 2011**).  
+
+O levantamento de requisitos pode parecer simples, mas apresenta desafios, pois exige um entendimento claro dos objetivos do sistema e das necessidades dos usuários diretos e indiretos.  
+
+De acordo com **Christel e Kang (1992)**, os principais problemas no levantamento de requisitos são:
+
+- **Problema de escopo**: 
+Definição pouco clara dos limites do sistema ou excesso de detalhes técnicos desnecessários.
+
+- **Problema de entendimento**:
+O cliente pode não saber exatamente o que precisa, ter dificuldade em expressar suas necessidades, omitir informações importantes ou apresentar requisitos conflitantes ou ambíguos.  
+
+- **Problema de volatilidade**: 
+Os requisitos podem mudar ao longo do tempo, exigindo um processo bem organizado para sua coleta e atualização.  
+
+Portanto, para garantir um **levantamento de requisitos eficaz**, é fundamental adotar uma abordagem estruturada e validar constantemente as informações coletadas para evitar problemas futuros no desenvolvimento do sistema.
